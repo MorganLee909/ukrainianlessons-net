@@ -3,11 +3,12 @@
 <head lang="en">
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Ukrainian Lessons</title>
+    <title>Ukrainian Language Lessons</title>
     <link rel="icon" type="img/png" href="/img/flag"/>
     <style><%~ include("./components/universal.css")%></style>
 </head>
 <body>
-    <%~ include("./components/header.eta", {title: "Ukrainian Lessons"}) %>
+    <%~ include("./components/header.eta", {title: "Ukrainian Language Lessons"}) %>
+    <%~ include("./components/menu.eta") %>
 </body>
 </html>

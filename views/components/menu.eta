@@ -1,0 +1,26 @@
+<div id="menu">
+    <a href="/">Home</a>
+    <a href="/nouns">Nouns</a>
+</div>
+
+<style>
+    #menu{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        background: rgba(1, 91, 187, 0.5);
+        padding: 15px 0 15px 5px;
+    }
+
+    #menu a{
+        display: block;
+        color: black;
+        text-decoration: none;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    #menu a:hover{
+        color: red;
+    }
+</style>
