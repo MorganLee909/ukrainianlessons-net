@@ -10,5 +10,7 @@
 <body>
     <%~ include("./components/header.eta", {title: "Ukrainian Language Lessons"}) %>
     <%~ include("./components/menu.eta") %>
+
+    <%~ include("./components/footer.eta") %>
 </body>
 </html>

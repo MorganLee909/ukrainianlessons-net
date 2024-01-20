@@ -1,7 +1,7 @@
 <header>
     <h1><%=it.title%></h1>
-    <div class="headerSection headerBlue"></div>
-    <div class="headerSection headerYellow"></div>
+    <div class="headerSection blue"></div>
+    <div class="headerSection yellow"></div>
 </header>
 
 <style>
@@ -13,7 +13,7 @@
         height: 100px;
     }
 
-   .headerSection{
+   header .headerSection{
        position: absolute;
        left: 0;
        height: 50px;
@@ -21,12 +21,12 @@
        opacity: 0.5;
    }
 
-   .headerBlue{
+   header .blue{
        top: 0;
        background: #015bbb;
    }
 
-   .headerYellow{
+   header .yellow{
        top: 50px;
        background: #fdd600;
    }

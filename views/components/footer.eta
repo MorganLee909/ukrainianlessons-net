@@ -1,0 +1,17 @@
+<footer>
+    <p>Inspired by <a href="https/russianlessons.net">russianlessons.net</a>.</p>
+</footer>
+
+<style>
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(200, 200, 200);
+        height: 50px;
+        width: 100%;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+    }
+</style>
