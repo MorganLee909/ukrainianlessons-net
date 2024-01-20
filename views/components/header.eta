@@ -1,0 +1,38 @@
+<header>
+    <h1><%=it.title%></h1>
+    <div class="headerSection headerBlue"></div>
+    <div class="headerSection headerYellow"></div>
+</header>
+
+<style>
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 100px;
+    }
+
+   .headerSection{
+       position: absolute;
+       left: 0;
+       height: 50px;
+       width: 100%;
+       opacity: 0.5;
+   }
+
+   .headerBlue{
+       top: 0;
+       background: #015bbb;
+   }
+
+   .headerYellow{
+       top: 50px;
+       background: #fdd600;
+   }
+
+   header h1{
+       z-index: 2;
+       font-size: 50px;
+   }
+</style>

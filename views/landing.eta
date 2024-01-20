@@ -8,6 +8,6 @@
     <style><%~ include("./components/universal.css")%></style>
 </head>
 <body>
-    <h1>Ukrainian Lessons</h1>
+    <%~ include("./components/header.eta", {title: "Ukrainian Lessons"}) %>
 </body>
 </html>
