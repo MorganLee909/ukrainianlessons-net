@@ -1,1 +1,13 @@
-<h1>Landing page</h1>
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Ukrainian Lessons</title>
+    <link rel="icon" type="img/png" href="/img/flag"/>
+    <style><%~ include("./components/universal.css")%></style>
+</head>
+<body>
+    <h1>Ukrainian Lessons</h1>
+</body>
+</html>
