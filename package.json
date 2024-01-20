@@ -1,0 +1,19 @@
+{
+  "name": "ukrainianlessons-net",
+  "version": "1.0.0",
+  "description": "Code for ukrainianlessons.net",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MorganLee909/ukrainianlessons-net.git"
+  },
+  "author": "Lee Morgan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MorganLee909/ukrainianlessons-net/issues"
+  },
+  "homepage": "https://github.com/MorganLee909/ukrainianlessons-net#readme"
+}
