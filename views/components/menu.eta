@@ -1,6 +1,6 @@
 <div id="menu">
     <a href="/">Home</a>
-    <a href="/nouns">Nouns</a>
+    <a href="/verbs">Verbs</a>
 </div>
 
 <style>
@@ -10,6 +10,7 @@
         width: 200px;
         background: rgba(1, 91, 187, 0.5);
         padding: 15px 0 15px 5px;
+        min-height: calc(100vh - 150px);
     }
 
     #menu a{

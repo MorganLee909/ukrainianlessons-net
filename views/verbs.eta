@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%~ include ("./components/head.eta", {title: "Verbs"}) %>
+</head>
+<body>
+    <%~ include("./components/header.eta", {title: "Verbs"}) %>
+
+    <div id="main">
+        <%~ include ("./components/menu.eta", {title: "Verbs"}) %>
+
+        <div id="contents">
+            <h1>Page under construction</h1>
+        </div>
+    </div>
+
+    <%~ include("./components/footer.eta") %>
+</body>
+</html>
