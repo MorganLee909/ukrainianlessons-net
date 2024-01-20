@@ -1,9 +1,9 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale-1.0"/>
-<title>Ukrainian Language Lessons
+<title>
     <% if(it.title){ %>
-        | <%=it.title%> 
+        <%=it.title%> |
     <% } %>
-</title>
+Ukrainian Language Lessons</title>
 <link rel="icon" type="img/png" href="/img/flag"/>
 <style><%~include("./universal.css")%></style>
