@@ -2,6 +2,34 @@
 <html lang="en">
 <head>
     <%~ include("./components/head.eta", {title: "Food / Їжа"}) %>
+    <style>
+        #contents{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #wordLists{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        table{
+            display: block;
+        }
+
+        caption{
+            font-size: 22px;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
     <%~ include("./components/header.eta", {title: "Food / Їжа"}) %>
@@ -10,7 +38,203 @@
        <%~ include("./components/menu.eta", {title: "Food / Їжа"}) %>
 
        <div id="contents">
-            <h1>Something</h1>
+           <div id="wordLists">
+               <table>
+                   <caption>Nouns</caption>
+                    <thead>
+                        <tr>
+                            <th>English</th>
+                            <th>Українська</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr data-type="drink">
+                            <td>Soda</td>
+                            <td></td>
+                        </tr>
+                        <tr data-type="drink">
+                            <td>Coffee</td>
+                            <td>Кава</td>
+                        </tr>
+                        <tr data-type="drink">
+                            <td>Water</td>
+                            <td>Вода</td>
+                        </tr>
+                        <tr data-type="drink">
+                            <td>Tea</td>
+                            <td></td>
+                        </tr>
+                        <tr data-type="drink">
+                            <td>Wine</td>
+                            <td>Вино</td>
+                        </tr>
+                        <tr data-type="drink">
+                            <td>Beer</td>
+                            <td>Пиво</td>
+                        </tr>
+                        <tr data-type="drink">
+                            <td>Juice</td>
+                            <td>Сок</td>
+                        </tr>
+                        <tr data-type="drink">
+                            <td>Milk</td>
+                            <td>Молоко</td>
+                        </tr>
+                        <tr>
+                            <td>Cheese</td>
+                            <td>Сир</td>
+                        </tr>
+                        <tr>
+                            <td>Butter</td>
+                            <td>Масло</td>
+                        </tr>
+                        <tr>
+                            <td>Cream</td>
+                            <td>Крем</td>
+                        </tr>
+                        <tr>
+                            <td>Yogurt</td>
+                            <td>Йогурт</td>
+                        </tr>
+                        <tr data-type="desert">
+                            <td>Cake</td>
+                            <td>Торт</td>
+                        </tr>
+                        <tr data-type="desert">
+                            <td>Cookie</td>
+                            <td>Печиво</td>
+                        </tr>
+                        <tr data-type="desert">
+                            <td>Chocolate</td>
+                            <td>Шоколад</td>
+                        </tr>
+                        <tr data-type="desert">
+                            <td>Ice Cream</td>
+                            <td>Морозиво</td>
+                        </tr>
+                        <tr data-type="desert">
+                            <td>Pie</td>
+                            <td>Пиріг</td>
+                        </tr>
+                        <tr data-type="fruit">
+                            <td>Apple</td>
+                            <td>Яблуко</td>
+                        </tr>
+                        <tr data-type="fruit">
+                            <td>Orange</td>
+                            <td>Апельсин</td>
+                        </tr>
+                        <tr data-type="fruit">
+                            <td>Banana</td>
+                            <td>Банан</td>
+                        </tr>
+                        <tr data-type="fruit">
+                            <td>Grape</td>
+                            <td>Виноград</td>
+                        </tr>
+                        <tr data-type="fruit">
+                            <td>Pineapple</td>
+                            <td>Ананас</td>
+                        </tr>
+                        <tr data-type="fruit">
+                            <td>Kiwi</td>
+                            <td>Ківі</td>
+                        </tr>
+                        <tr data-type="fruit">
+                            <td>Lemon</td>
+                            <td>Лимон</td>
+                        </tr>
+                        <tr data-type="fruit">
+                            <td>Lime</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Cereal</td>
+                            <td>Крупа</td>
+                        </tr>
+                        <tr>
+                            <td>Toast</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Bread</td>
+                            <td>Хліб</td>
+                        </tr>
+                        <tr data-type="vegetable">
+                            <td>Potato</td>
+                            <td>Картопля</td>
+                        </tr>
+                        <tr data-type="meat">
+                            <td>Beef</td>
+                            <td>Явлочина</td>
+                        </tr>
+                        <tr data-type="meat">
+                            <td>Chicken</td>
+                            <td>Курка</td>
+                        </tr>
+                        <tr data-type="meat">
+                            <td>Pork</td>
+                            <td>Свинина</td>
+                        </tr>
+                        <tr data-type="meat">
+                            <td>Salmon</td>
+                            <td>Лосось</td>
+                        </tr>
+                        <tr data-type="meat">
+                            <td>Trout</td>
+                            <td>Форель</td>
+                        </tr>
+                        <tr data-type="vegetable">
+                            <td>Beans</td>
+                            <td>Квасоля</td>
+                        </tr>
+                        <tr data-type="vegetable">
+                            <td>Cabbage</td>
+                            <td></td>
+                        </tr>
+                        <tr data-type="vegetable">
+                            <td>Carrots</td>
+                            <td>Капуста</td>
+                        </tr>
+                        <tr data-type="vegetable">
+                            <td>Broccoli</td>
+                            <td>Брокколі</td>
+                        </tr>
+                        <tr data-type="vegetable">
+                            <td>Cauliflower</td>
+                            <td>Цвітна капуста</td>
+                        </tr>
+                        <tr data-type="meat">
+                            <td>Egg</td>
+                            <td>Яйце</td>
+                        </tr>
+                        <tr data-type="vegetable">
+                            <td>Peas</td>
+                            <td>Горох</td>
+                        </tr>
+                        <tr data-type="vegetable">
+                            <td>Egg Plant</td>
+                            <td>Баклажани</td>
+                        </tr>
+                    </tbody>
+               </table>
+
+               <table>
+                    <caption>Verbs</caption> 
+                    <thead>
+                        <tr>
+                            <th>English</th>
+                            <th>Українська</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Things</td>
+                            <td>Речі</td>
+                        </tr>
+                    </tbody>
+               </table>
+           </div>
        </div>
     </div>
 
