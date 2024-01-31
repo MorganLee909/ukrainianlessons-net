@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%~ include("./components/head.eta", {title: "Food / Їжа"}) %>
+</head>
+<body>
+    <%~ include("./components/header.eta", {title: "Food / Їжа"}) %>
+
+    <div id="main">
+       <%~ include("./components/menu.eta", {title: "Food / Їжа"}) %>
+
+       <div id="contents">
+            <h1>Something</h1>
+       </div>
+    </div>
+
+    <%~ include("./components/footer.eta") %>
+</body>
+</html>

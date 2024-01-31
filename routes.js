@@ -9,6 +9,6 @@ module.exports = (app)=>{
 
     //OTHER
     app.get("/", (req, res)=>res.send(eta.render("landing.eta")));
-    app.get("/verbs", (req, res)=>res.send(eta.render("verbs.eta")));
+    app.get("/food", (req, res)=>res.send(eta.render("food.eta")));
     app.get("*", (req, res)=>res.send(eta.render("404.eta")));
 }
