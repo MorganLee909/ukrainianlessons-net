@@ -49,10 +49,6 @@
                     </thead>
                     <tbody>
                         <tr data-type="drink">
-                            <td>Soda</td>
-                            <td></td>
-                        </tr>
-                        <tr data-type="drink">
                             <td>Coffee</td>
                             <td>Кава</td>
                         </tr>
@@ -62,7 +58,7 @@
                         </tr>
                         <tr data-type="drink">
                             <td>Tea</td>
-                            <td></td>
+                            <td>Чай</td>
                         </tr>
                         <tr data-type="drink">
                             <td>Wine</td>
@@ -146,15 +142,11 @@
                         </tr>
                         <tr data-type="fruit">
                             <td>Lime</td>
-                            <td></td>
+                            <td>Лайм</td>
                         </tr>
                         <tr>
                             <td>Cereal</td>
                             <td>Крупа</td>
-                        </tr>
-                        <tr>
-                            <td>Toast</td>
-                            <td></td>
                         </tr>
                         <tr>
                             <td>Bread</td>
@@ -190,11 +182,11 @@
                         </tr>
                         <tr data-type="vegetable">
                             <td>Cabbage</td>
-                            <td></td>
+                            <td>Капуста</td>
                         </tr>
                         <tr data-type="vegetable">
                             <td>Carrots</td>
-                            <td>Капуста</td>
+                            <td>Морква</td>
                         </tr>
                         <tr data-type="vegetable">
                             <td>Broccoli</td>
@@ -220,6 +212,62 @@
                </table>
 
                <table>
+                    <caption>Adjectives</caption>
+                    <thead>
+                        <tr>
+                            <th>English</th>
+                            <th>Українська</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Bland</td>
+                            <td>Мʼякий</td>
+                        </tr>
+                        <tr>
+                            <td>Fatty</td>
+                            <td>Жирний</td>
+                        </tr>
+                        <tr>
+                            <td>Healthy</td>
+                            <td>Здоровий</td>
+                        </tr>
+                        <tr>
+                            <td>Oily</td>
+                            <td>Жирний</td>
+                        </tr>
+                        <tr>
+                            <td>Raw</td>
+                            <td>Сирий</td>
+                        </tr>
+                        <tr>
+                            <td>Salty</td>
+                            <td>Солоний</td>
+                        </tr>
+                        <tr>
+                            <td>Sour</td>
+                            <td>Кислий</td>
+                        </tr>
+                        <tr>
+                            <td>Spicy</td>
+                            <td>Гострий</td>
+                        </tr>
+                        <tr>
+                            <td>Sweet</td>
+                            <td>Солодкий</td>
+                        </tr>
+                        <tr>
+                            <td>Tender</td>
+                            <td>Ніжний</td>
+                        </tr>
+                        <tr>
+                            <td>Tough</td>
+                            <td>Жорсткий</td>
+                        </tr>
+                    </tbody>
+               </table>
+
+               <table>
                     <caption>Verbs</caption> 
                     <thead>
                         <tr>
@@ -229,8 +277,32 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Things</td>
-                            <td>Речі</td>
+                            <td>To bake</td>
+                            <td>Спекати</td>
+                        </tr>
+                        <tr>
+                            <td>To peel</td>
+                            <td>Очистити</td>
+                        </tr>
+                        <tr>
+                            <td>To fry</td>
+                            <td>Смажити</td>
+                        </tr>
+                        <tr>
+                            <td>To steam</td>
+                            <td>Пасерувати</td>
+                        </tr>
+                        <tr>
+                            <td>To slice</td>
+                            <td>Нарізати</td>
+                        </tr>
+                        <tr>
+                            <td>To boid</td>
+                            <td>Варити</td>
+                        </tr>
+                        <tr>
+                            <td>To measure</td>
+                            <td>Вимірювати</td>
                         </tr>
                     </tbody>
                </table>
