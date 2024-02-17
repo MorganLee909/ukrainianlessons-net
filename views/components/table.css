@@ -1,0 +1,15 @@
+<style>
+   table{
+       display: block;
+   } 
+
+   th, td{
+       border: 1px solid black;
+       padding: 5px;
+   }
+    caption{
+        font-size: 22px;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+</style>
