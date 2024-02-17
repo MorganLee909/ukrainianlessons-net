@@ -1,1 +1,39 @@
-<h1>To use</h1>
+<h1>Використовувати</h1>
+
+<h2>Present tense</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Subject</th>
+            <th>Conjugation</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Я</td>
+            <td>Використовую</td>
+        </tr>
+        <tr>
+            <td>Ти</td>
+            <td>Використовуєшь</td>
+        </tr>
+        <tr>
+            <td>Він/Вона/Воно</td>
+            <td>Використовує</td>
+        </tr>
+        <tr>
+            <td>Ви</td>
+            <td>Використовуєте</td>
+        </tr>
+        <tr>
+            <td>Ми</td>
+            <td>Використовуємо</td>
+        </tr>
+        <tr>
+            <td>Вони</td>
+            <td>Використовують</td>
+        </tr>
+    </tbody>
+</table>
+
