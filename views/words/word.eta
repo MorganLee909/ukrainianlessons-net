@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%~ include("../components/head.eta", {}) %>
+</head>
+<body>
+    <%~ include("../components/header.eta", {title: it.word}) %>
+
+    <h1><%= it.word %></h1>
+
+    <div id="main">
+        <%~ include(`./${it.word}`) %>
+    </div>
+
+    <%- include("../components/footer.eta") %>
+</body>
+</html>
