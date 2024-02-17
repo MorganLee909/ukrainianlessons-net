@@ -4,12 +4,14 @@
     <%~ include("../components/head.eta", {}) %>
 </head>
 <body>
-    <%~ include("../components/header.eta", {title: it.word}) %>
-
-    <h1><%= it.word %></h1>
+    <%~ include("../components/header.eta", {title: `Слово: використовувати`}) %>
 
     <div id="main">
-        <%~ include(`./${it.word}`) %>
+        <%~ include ("../components/menu.eta") %>
+
+        <div id="contents">
+            <%~ include(`./${it.word}`) %>
+        </div>
     </div>
 
     <%- include("../components/footer.eta") %>
