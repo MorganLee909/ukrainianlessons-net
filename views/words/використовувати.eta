@@ -1,4 +1,4 @@
-<h1>Використовувати</h1>
+<h1>Використовувати (Дієслово)</h1>
 
 <h2>Present tense</h2>
 
@@ -35,5 +35,77 @@
             <td>Використовують</td>
         </tr>
     </tbody>
+</table>
+
+<h2>Past tense</h2>
+
+<div class="horizontal">
+    <table>
+        <thead>
+            <tr>
+                <th>Subject</th>
+                <th>Conjugation</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Masculine</td>
+                <td>Використовував</td>
+            </tr>
+            <tr>
+                <td>Feminine</td>
+                <td>Використовувала</td>
+            </tr>
+            <tr>
+                <td>Neuter</td>
+                <td>Використовувало</td>
+            </tr>
+            <tr>
+                <td>Plural</td>
+                <td>Використовували</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<h2>Future tense</h2>
+
+<div class="horizontal">
+    <table>
+        <thead>
+            <tr>
+                <th>Subject</th>
+                <th>Conjugation</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Я</td>
+                <td>Буду використовувати</td>
+            </tr>
+            <tr>
+                <td>Він/Вона/Воно</td>
+                <td>Буде використовувати</td>
+            </tr>
+            <tr>
+                <td>Ти</td>
+                <td>Будеш використовувати</td>
+            </tr>
+            <tr>
+                <td>Ви</td>
+                <td>Будеш використовувати</td>
+            </tr>
+            <tr>
+                <td>Ми</td>
+                <td>Будемо використовувати</td>
+            </tr>
+            <tr>
+                <td>Вони</td>
+                <td>Будемо використовувати</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 </table>
 

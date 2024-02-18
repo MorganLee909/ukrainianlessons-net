@@ -3,6 +3,11 @@
 <head>
     <%~ include("../components/head.eta", {}) %>
     <%~ include("../components/table.css") %>
+    <style>
+        .horizontal{
+            display: flex;
+        }
+    </style>
 </head>
 <body>
     <%~ include("../components/header.eta", {title: `Слово: використовувати`}) %>
