@@ -19,9 +19,28 @@
         .contentHeader{
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: space-around;
             width: 100%;
             margin-bottom: 35px;
+        }
+
+        .selected{
+            background: #7facdd;
+        }
+
+        tbody tr{
+            cursor: pointer;
+        }
+
+        .createDeck{
+            background: none;
+            border: none;
+            padding: 0;
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+            font-size: 16px;
+            font-family: Roboto;
         }
     </style>
 </head>
@@ -36,6 +55,10 @@
                <label>Search
                     <input type="text" id="textInput" oninput="textSearch()"/>
                </label>
+
+               <a class="createDeck" href="https://flashcards.ukrainianlessons.net/deck/65d3e607654a32667d8698dd" target="_blank">Food flashcards</a>
+
+               <button id="createDeck" class="createDeck" onclick="createCustomDeck()" style="display:none">Create deck from selected</button>
            </div>
            <div id="wordLists">
                <table>
@@ -343,9 +366,30 @@
             filterTable(document.getElementById("verbBody"), text);
         }
 
+        const addCard = (elem)=>{
+            elem.classList.toggle("selected");
+            let selected = document.querySelectorAll(".selected");
+            document.getElementById("createDeck").style.display = selected.length > 0 ? "block" : "none";
+        }
+
+        const createCustomDeck = ()=>{
+            let items = document.querySelectorAll(".selected");
+            let deckString = "";
+            for(let i = 0; i < items.length; i++){
+                deckString += `${items[i].children[0].textContent},${items[i].children[1].textContent},`;
+            }
+            deckString = deckString.substring(0, deckString.length - 1);
+            window.open(`https://flashcards.ukrainianlessons.net/deck/custom?cards=${deckString}`, "_blank");
+        }
+
         createList(document.getElementById("nounBody"), nouns);
         createList(document.getElementById("adjectiveBody"), adjectives);
         createList(document.getElementById("verbBody"), verbs);
+
+        let items = document.querySelectorAll("tbody tr");
+        for(let i = 0; i < items.length; i++){
+            items[i].onclick = ()=>{addCard(items[i])};
+        }
     </script>
 </body>
 </html>
