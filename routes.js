@@ -10,9 +10,13 @@ module.exports = (app)=>{
     //WORDS
     app.get('/words/:word', (req, res)=>res.send(eta.render(`words/word.eta`, {word: req.params.word})));
 
+    //WORDLISTS
+    app.get("/wordlist/:name", (req, res)=>res.send(eta.render(`wordLists/${req.params.name}.eta`)));
+
+    //LESSONS
+    app.get("/verbs", (req, res)=>res.send(eta.render("verbs.eta")));
+
     //OTHER
     app.get("/", (req, res)=>res.send(eta.render("landing.eta")));
-    app.get("/food", (req, res)=>res.send(eta.render("food.eta")));
-    app.get("/verbs", (req, res)=>res.send(eta.render("verbs.eta")));
     app.get("*", (req, res)=>res.send(eta.render("404.eta")));
 }
