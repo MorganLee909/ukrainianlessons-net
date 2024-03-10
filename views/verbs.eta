@@ -411,6 +411,65 @@
                     </tr>
                 </tbody>
             </table>
+
+            <h1>Reflexive verbs</h1>
+            <p>Reflexive verbs are verbs that reflect the action back on the person of thing doing the action. For example "to wash" (мити), or "to wash oneself" (митися). This is simple the action being done to the person/thing doing the action. Only some verbs have reflexive forms, so this cannot be used for all verbs. The only way to know if a verb can be reflexive is simply to memorize it, unfortunately there is no pattern. There are even some verbs that only have the reflex from, such as "to laugh" (сміятися). The pattern for creating verbs is very simple though. You simple add -ся to the end of the verb, in any form/conjugation. Here are some examples:</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Сміятися</th>
+                        <th>Митися</th>
+                        <th>Одягатися</th>
+                        <th>Вчитися</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Я</td>
+                        <td>Сміюся</td>
+                        <td>Миюся</td>
+                        <td>Одягаюся</td>
+                        <td>Вчуся</td>
+                    </tr>
+                    <tr>
+                        <td>Ти</td>
+                        <td>Смієшся</td>
+                        <td>Миєшся</td>
+                        <td>Одягаєшся</td>
+                        <td>Вчишся</td>
+                    </tr>
+                    <tr>
+                        <td>Він/Вона/Воно</td>
+                        <td>Сміється</td>
+                        <td>Миється</td>
+                        <td>Одягається</td>
+                        <td>Вчиться</td>
+                    </tr>
+                    <tr>
+                        <td>Ми</td>
+                        <td>Сміємося</td>
+                        <td>Миємося</td>
+                        <td>Одягаємося</td>
+                        <td>Вчимося</td>
+                    </tr>
+                    <tr>
+                        <td>Ви</td>
+                        <td>Смієтеся</td>
+                        <td>Миєтеся</td>
+                        <td>Одягаєтеся</td>
+                        <td>Вчитеся</td>
+                    </tr>
+                    <tr>
+                        <td>Вони</td>
+                        <td>Сміються</td>
+                        <td>Миються</td>
+                        <td>Одягаються</td>
+                        <td>Вчуться</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 
