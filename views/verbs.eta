@@ -306,6 +306,111 @@
                     </tr>
                 </tbody>
             </table>
+
+            <h1>Future tense</h1>
+            <p>The future tense in Ukrainian is very similar to the past tense. There is a perfective and imperfective version.</p>
+            <p>The perfective version is the same concept as the past tense. It is an action that will be completed in the future, such as "I will read" (Я прочитаю). This will use the same pre-fix as the perfective in the past tense. The difference is that it is conjugated in the same way as the present tense. For example, "I wrote" (я написав) in past perfective, and "I will write" (Я напишу) in the future perfective.</p>
+            <p>The future imperfective, again, is the same concept as past imperfective in that it displays an ongoing or uncompleted actions. For example "I will be reading" (Я буду читати). This is a bit different in that we do not conjugate the verb, but instead add "to be" (бути) before it and conjugate that instead.</p>
+
+            <table>
+                <caption>Perfective</caption>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Читати</th>
+                        <th>Писати</th>
+                        <th>Бачити</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Я</td>
+                        <td>Прочитаю</td>
+                        <td>Напишу</td>
+                        <td>Побачу</td>
+                    </tr>
+                    <tr>
+                        <td>Ти</td>
+                        <td>Прочитаєш</td>
+                        <td>Напишеш</td>
+                        <td>Побачеш</td>
+                    </tr>
+                    <tr>
+                        <td>Він/Вона/Воно</td>
+                        <td>Прочитає</td>
+                        <td>Напише</td>
+                        <td>Побаче</td>
+                    </tr>
+                    <tr>
+                        <td>Ми</td>
+                        <td>Прочитаємо</td>
+                        <td>Напшемо</td>
+                        <td>Побачемо</td>
+                    </tr>
+                    <tr>
+                        <td>Ви</td>
+                        <td>Прочитаєте</td>
+                        <td>Напишете</td>
+                        <td>Побачете</td>
+                    </tr>
+                    <tr>
+                        <td>Вони</td>
+                        <td>Прочитають</td>
+                        <td>Напишуть</td>
+                        <td>Побачуть</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table>
+                <caption>Imperfective</caption>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Читати</th>
+                        <th>Писати</th>
+                        <th>Бачити</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Я</td>
+                        <td>Буду читати</td>
+                        <td>Буду писати</td>
+                        <td>Буду бачити</td>
+                    </tr>
+                    <tr>
+                        <td>Ти</td>
+                        <td>Будеш читати</td>
+                        <td>Будеш писати</td>
+                        <td>Будеш бачити</td>
+                    </tr>
+                    <tr>
+                        <td>Він/Вона/Воно</td>
+                        <td>Буде читати</td>
+                        <td>Буде писати</td>
+                        <td>Буде бачити</td>
+                    </tr>
+                    <tr>
+                        <td>Ми</td>
+                        <td>Будемо читати</td>
+                        <td>Будемо писати</td>
+                        <td>Будемо бачити</td>
+                    </tr>
+                    <tr>
+                        <td>Ви</td>
+                        <td>Будете читати</td>
+                        <td>Будете писати</td>
+                        <td>Будете бачити</td>
+                    </tr>
+                    <tr>
+                        <td>Вони</td>
+                        <td>Будуть читати</td>
+                        <td>Будуть писати</td>
+                        <td>Будуть бачити</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 
