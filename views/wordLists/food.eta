@@ -70,7 +70,7 @@
                             <th>Українська</th>
                         </tr>
                     </thead>
-                    <tbody id="nounBody">
+                    <tbody>
                         <tr data-type="drink">
                             <td>Coffee</td>
                             <td>Кава</td>
@@ -242,7 +242,7 @@
                             <th>Українська</th>
                         </tr>
                     </thead>
-                    <tbody id="adjectiveBody">
+                    <tbody>
                         <tr>
                             <td>Bland</td>
                             <td>Мʼякий</td>
@@ -298,7 +298,7 @@
                             <th>Українська</th>
                         </tr>
                     </thead>
-                    <tbody id="verbBody">
+                    <tbody>
                         <tr>
                             <td>To bake</td>
                             <td>Спекати</td>
