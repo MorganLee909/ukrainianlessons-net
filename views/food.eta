@@ -46,6 +46,7 @@
 </head>
 <body>
     <%~ include("./components/header.eta", {title: "Food / Їжа"}) %>
+    <button id="menuBtn">Menu</button>
 
     <div id="main">
        <%~ include("./components/menu.eta", {title: "Food / Їжа"}) %>
