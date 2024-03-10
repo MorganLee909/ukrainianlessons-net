@@ -1,5 +1,13 @@
 *{margin:0;padding:0;box-sizing:border-box;}
 
+body, html{
+    width: 100vw;
+}
+
+#menuBtn{
+    display: none;
+}
+
 #main{
     display: flex;
 }
@@ -9,4 +17,24 @@
     float: right;
     padding: 35px 0 0 15px;
     margin-bottom: 50px;
+}
+
+@media screen and (max-width: 850px){
+    #contents{
+        width: 100vw;
+    }
+
+    #menuBtn{
+        display: block;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        padding: 10px 15px;
+        border: none;
+        background: black;
+        color: white;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+    }
 }

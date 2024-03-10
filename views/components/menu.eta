@@ -1,9 +1,18 @@
 <div id="menu">
+    <div id="mobileHeader">
+        <h2>Menu</h2>
+        <button id="closeMenuBtn">
+            <svg width="35px" height="35px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" color="#ffffff">
+    <path d="M6.75827 17.2426L12.0009 12M17.2435 6.75736L12.0009 12M12.0009 12L6.75827 6.75736M12.0009 12L17.2435 17.2426" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+        </button>    
+    </div>
+
     <a href="/">Home</a>
     <h5>Lessons</h5>
-    <a href="/verbs">Verbs</a>
+    <a href="/verbs">Verbs (Дієслова)</a>
     <h5>Word Lists</h5>
-    <a href="/food">Food - Їжа</a>
+    <a href="/food">Food (Їжа)</a>
     <h5>Tools</h5>
     <a href="https://flashcards.ukrainianlessons.net">Flash cards</a>
 </div>
@@ -16,6 +25,30 @@
         background: rgba(1, 91, 187, 0.5);
         padding: 15px 0 15px 5px;
         min-height: calc(100vh - 150px);
+    }
+
+    #mobileHeader{
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #mobileHeader h2{
+        font-size: 35px;
+        margin: 0 0 35px 0;
+        text-decoration: underline;
+    }
+
+    #mobileHeader button{
+        border: none;
+        background: none;
+        color: white;
+        font-weight: bold;
+        font-size: 35px;
+        cursor: pointer;
+        position: absolute;
+        top: 15px;
+        right: 15px;
     }
 
     #menu a{
@@ -34,4 +67,44 @@
     #menu h5{
         text-decoration: underline;
     }
+
+    @media screen and (max-width: 850px){
+        #menu{
+            display: none;
+            height: 100vh;
+            width: 100vw;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: black;
+            color: white;
+            z-index: 2;
+            overflow-y: auto;
+        }
+
+        #mobileHeader{
+            display: flex;
+        }
+
+        #menu h5{
+            font-size: 24px;
+            color: gray;
+            margin-top: 15px;
+        }
+
+        #menu a{
+            font-size: 22px;
+            color: white;
+        }
+    }
 </style>
+
+<script>
+    document.getElementById("menuBtn").addEventListener("click", ()=>{
+        document.getElementById("menu").style.display = "flex";
+    });
+
+    document.getElementById("closeMenuBtn").addEventListener("click", ()=>{
+        document.getElementById("menu").style.display = "none";
+    });
+</script>

@@ -40,6 +40,7 @@
 </head>
 <body>
     <%~ include("./components/header.eta", {title: "Verbs"}) %>
+    <button id="menuBtn">Menu</button>
 
     <div id="main">
         <%~ include ("./components/menu.eta", {title: "Verbs"}) %>
