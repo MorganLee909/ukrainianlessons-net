@@ -3,6 +3,40 @@
 <head>
     <%~ include ("./components/head.eta", {title: "Verbs"}) %>
     <%~ include('./components/table.css') %>
+    <style>
+        #contents{
+            padding: 35px;
+        }
+
+        h1, h2, h3{
+            margin-top: 25px;
+        }
+
+        h1{
+            margin-left: 10px;
+        }
+
+        h2{
+            margin-left: 20px;
+        }
+
+        h3{
+            margin-left: 30px;
+        }
+
+        p{
+            margin: 0 0 15px 40px;
+            margin-left: 40px;
+        }
+
+        table{
+            margin-left: 55px; 
+        }
+
+        tbody tr:nth-child(even){
+            background: rgb(200, 200, 200);
+        }
+    </style>
 </head>
 <body>
     <%~ include("./components/header.eta", {title: "Verbs"}) %>
@@ -11,52 +45,263 @@
         <%~ include ("./components/menu.eta", {title: "Verbs"}) %>
 
         <div id="contents">
-            <h1>Verbs</h1>
+            <h1>Overview</h1>
+            <p>Verbs in Ukrainian generally end with -ти. However, they fall into generally two different groups. Group 1 itself is divided into two different sub-groups. These groups and sub-groups are dependent on the ending of the verb. Conjugation of the verbs depends on the group that the verb is in and on who is doing the action. While the conjugation for the different groups is different, it is fortunately quite similar. Then, just like any other langauage, there are exceptions to the rules, and these tend to be some of the most commonly used verbs.</p>
+            <p>There is only a single form for present tense. So, Я читаю would correlate to both "I read" and "I am reading". There is no difference between these in Ukrainian, it must be understood through context.</p>
+            <p>Past tense and present tense both have two different forms, perfective and imperfective. Perfective is for actions that have been completed, such as "I read the book" or "I will have read the book". Imperfective is for uncompleted or repetitive actions. "I was reading the book" or "I will be reading the book". The forms have different conjugation, but it is more simple than present tense and easier to remember.</p>
+            <p>Sometimes in Ukrainian there are reflexive verbs. These verbs are ones that reflect the action back on the subject. Some words can be used reflexive, some cannot. There are even some verbs that only exist in the reflexive form.</p>
 
-            <h2>Present tense</h2>
 
-            <p>Verbs in the present tense have 7 different forms, or conjugations. The stem of the word and 6 conjugations based on who is doing the speaking, for example, "to run".</p>
+            <h1>Present Tense</h1>
+            <h2>Group 1</h2>
+            <p>Verbs in the first group are ones that end with -ати, or -яти. There are some exceptions to this, which will be discussed below, but most verbs with one of these ending will be in group 1. In this group there are two different sub-groups to look at:</p>
+
+            <h3>Group 1a</h3>
+            <p>This first group is the more common one and applies to most group 1 verbs. Читати, шукати, знати, etc. For this group, the -ти ending is dropped and an ending is added based on who is doing the action. There are 6 different conjugations: Я (I), Ти (you, informal and singular), Він/Вона/Воно (he/she/it) Ми (we), Ви (you, informal or plural), Вони (they). To make things more complicated, the ending is also dependent on whether then last letter, after the ending is dropped, is a consonant or a vowel. Though they are very similar. See the chart below for the conjugations and some examples.</p>
+            <p>*Note: він/вона/воно applies to things as well as people. All nouns have one of three genders, so this is the conjugation used for objects as well as people. Although вони is used for plural.</p>
 
             <table>
                 <thead>
                     <tr>
-                        <th>Subject</th>
+                        <th></th>
+                        <th>Consonants</th>
+                        <th>Vowels</th>
                         <th>Читати</th>
+                        <th>Гуляти</th>
+                        <th>Писати</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>Я</td>
+                        <td>-у</td>
+                        <td>-ю</td>
                         <td>Читаю</td>
+                        <td>Гуляю</td>
+                        <td>Пишу</td>
                     </tr>
                     <tr>
                         <td>Ти</td>
+                        <td>-еш</td>
+                        <td>-єш</td>
                         <td>Читаєш</td>
+                        <td>Гуляєш</td>
+                        <td>Пишеш</td>
                     </tr>
                     <tr>
                         <td>Він/Вона/Воно</td>
+                        <td>-е</td>
+                        <td>-є</td>
                         <td>Читає</td>
-                    </tr>
-                    <tr>
-                        <td>Ви</td>
-                        <td>Читаєте</td>
+                        <td>Гуляє</td>
+                        <td>Пише</td>
                     </tr>
                     <tr>
                         <td>Ми</td>
+                        <td>-емо</td>
+                        <td>-ємо</td>
                         <td>Читаємо</td>
+                        <td>Гуляємо</td>
+                        <td>Пишемо</td>
+                    </tr>
+                    <tr>
+                        <td>Ви</td>
+                        <td>-ете</td>
+                        <td>-єте</td>
+                        <td>Читаєте</td>
+                        <td>Гуляєте</td>
+                        <td>Пишете</td>
                     </tr>
                     <tr>
                         <td>Вони</td>
+                        <td>-уть</td>
+                        <td>-ють</td>
                         <td>Читають</td>
+                        <td>Гуляють</td>
+                        <td>Пишуть</td>
                     </tr>
                 </tbody>
             </table>
 
-            <p>The above is an example of the first form of conjugation. There are two multiple forms of conjugation, they depend on the ending of the verb. There are also quite a few exceptions that do not fall under either rule and must simple be memorized. First, lets take a look at conjugation 1.</p>
+            <h3>Group 1b</h3>
+            <p>This sub-group is quite similar to sub-group 1, it uses the same conjugations. The difference is in the ending that is dropped. When a word ends with -увати -ювати or -авати, the -вати ending will be dropped, so an extra two letters are dropped for conjugation. For example, with читати (sub-group 1), you would drop -ти and then add the conjugation. Я читаю (I read). For a word such as використовувати (to use), we drop -вати, then add the ending. Я використовую (I use). See the table below for the conjugations (same as above) and some examples.</p>
 
-            <h3>Conjuation 1</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Consonants</th>
+                        <th>Vowels</th>
+                        <th>Використовувати</th>
+                        <th>Працювати</th>
+                        <th>Купувати</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Я</td>
+                        <td>-у</td>
+                        <td>-ю</td>
+                        <td>Використовую</td>
+                        <td>Працюю</td>
+                        <td>Купую</td>
+                    </tr>
+                    <tr>
+                        <td>Ти</td>
+                        <td>-еш</td>
+                        <td>-єш</td>
+                        <td>Використовуєш</td>
+                        <td>Працюєш</td>
+                        <td>Купуєш</td>
+                    </tr>
+                    <tr>
+                        <td>Він/Вона/Воно</td>
+                        <td>-е</td>
+                        <td>-є</td>
+                        <td>Використовує</td>
+                        <td>Працює</td>
+                        <td>Купує</td>
+                    </tr>
+                    <tr>
+                        <td>Ми</td>
+                        <td>-емо</td>
+                        <td>-ємо</td>
+                        <td>Використовуємо</td>
+                        <td>Працюємо</td>
+                        <td>Купуємо</td>
+                    </tr>
+                    <tr>
+                        <td>Ви</td>
+                        <td>-ете</td>
+                        <td>-єте</td>
+                        <td>Використовуєте</td>
+                        <td>Працюєте</td>
+                        <td>Купуєте</td>
+                    </tr>
+                    <tr>
+                        <td>Вони</td>
+                        <td>-уть</td>
+                        <td>-ють</td>
+                        <td>Використовують</td>
+                        <td>Працюють</td>
+                        <td>Купують</td>
+                    </tr>
+                </tbody>
+            </table>
 
-            <p>The first conjugation form is for verbs that end with "-ати", "-яти" or "-вати". 
+            <h2>Group 2</h2>
+            <p>Group two applies to verbs that end with -ити, іти or їти. This group, fortunately, has no sub-groups. Unfortunately, there are three different possible conjugations depending on the stem of the verb. For this group, we drop the last three letters of the verb rather than the last two. While the conjugation is different than group one, it is quite similar. Check the table below for the conjugations and some examples.</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>ж, ч, ш, щ</th>
+                        <th>Consonant</th>
+                        <th>Vowel</th>
+                        <th>Вчити</th>
+                        <th>Говорити</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Я</td>
+                        <td>-у</td>
+                        <td>-ю</td>
+                        <td>-ю</td>
+                        <td>Вчу</td>
+                        <td>Говорю</td>
+                    </tr>
+                    <tr>
+                        <td>Ти</td>
+                        <td>-иш</td>
+                        <td>-иш</td>
+                        <td>-їш</td>
+                        <td>Вчиш</td>
+                        <td>Говориш</td>
+                    </tr>
+                    <tr>
+                        <td>Він/Вона/Воно</td>
+                        <td>-ить</td>
+                        <td>-ить</td>
+                        <td>-їть</td>
+                        <td>Вчить</td>
+                        <td>Говорить</td>
+                    </tr>
+                    <tr>
+                        <td>Ми</td>
+                        <td>-имо</td>
+                        <td>-имо</td>
+                        <td>-ите</td>
+                        <td>Вчимо</td>
+                        <td>Говоримо</td>
+                    </tr>
+                    <tr>
+                        <td>Ви</td>
+                        <td>-ите</td>
+                        <td>-ите</td>
+                        <td>-їте</td>
+                        <td>Вчите</td>
+                        <td>Говорите</td>
+                    </tr>
+                    <tr>
+                        <td>Вони</td>
+                        <td>-ать</td>
+                        <td>-ять</td>
+                        <td>-ять</td>
+                        <td>Вчать</td>
+                        <td>Говорять</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h1>Past Tense</h1>
+            <p>As previously mentioned, there are two different versions for past tense, perfective and imperfective.</p>
+            <p>Perfective is the form that is used for actions in the past that have been completed. As an example "I read the book" (Я прочитав книгу). with this statement I am saying that I was reading the book, and that I have finished reading it. I am no longer reading the book because I have finished that action. With perfective, usually a pre-fix is added on to the beginning of the present tense form of the verb. So, in the previous example I used the word читати. The perfective adds про- to the beginning, then conjugates it. Most verbs in perfective add one of a few common pre-fixes, though of course, as with everything, there are some exceptions that you must just memorize.</p>
+            <p>Imperfective is used for incomplete or on-going actions. To use the same example as perfective, it would be "I was reading the book" (Я читав книгу). In this case, the action was never finished. Imperfective is also used for ongoing actions. For example, "I ran every morning" (Я читав щоранку). For imperfective, we use the same form as the present tense verb, it is just conjugated differently than present tense. See the table below for the conjugation rules.</p>
+            <p>The conjugation for both perfective and imperfective is the same, simplifying it a bit more. Also, there are only four different conjugations: masculine, feminine, neuter and plural. The conjugation depends on the subject, or the person/thing doing the action. One thing to keep in mind is that ви is always considered plural in this situation, even if using it in the formal/singular version.</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Conjugation</th>
+                        <th>Читати / Прочитати</th>
+                        <th>Писати / Написати</th>
+                        <th>Бачити / Побачити</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Masculine</td>
+                        <td>-в</td>
+                        <td>Читав / Прочитав</td>
+                        <td>Писав / Написав</td>
+                        <td>Бачив / Побачив</td>
+                    </tr>
+                    <tr>
+                        <td>Feminine</td>
+                        <td>-ла</td>
+                        <td>Читала / Прочитала</td>
+                        <td>Писала / Написала</td>
+                        <td>Бачила / Побачила</td>
+                    </tr>
+                    <tr>
+                        <td>Neuter</td>
+                        <td>-ло</td>
+                        <td>Читало / Прочитало</td>
+                        <td>Писало / Написало</td>
+                        <td>Бачило / Побачило</td>
+                    </tr>
+                    <tr>
+                        <td>Plural</td>
+                        <td>-ли</td>
+                        <td>Читали / Прочитали</td>
+                        <td>Писали / Написали</td>
+                        <td>Бачили / Побачили</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 
