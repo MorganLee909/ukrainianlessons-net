@@ -3,9 +3,12 @@
 <head>
     <%~ include("./components/head.eta", {}) %>
     <style>
-        #contents{
-            display: flex;
-            justify-content: center;
+        h1, h2{
+            margin: 25px 0;
+        }
+
+        p{
+            margin: 15px;
         }
     </style>
 </head>
@@ -16,7 +19,12 @@
         <%~ include("./components/menu.eta") %>
 
         <div id="contents">
-            <h1>Site under construction</h1>
+            <h1>What is this?</h1>
+            <p>UkrainianLessons.net is a site built to help people learn the Ukrainian language through free resources here on this site. Learning new languages can be very difficult and it is always great to have more resources and something that you can return to time and time again in order to refresh your knowledge or as a reference. The website is currently in the process of being built, so expect to see more and more lessons and resources appear over time.</p>
+
+            <p>I myself am a student, learning to speak Ukrainian. I have created this site as both a tool for others to use, and as a way to improve my own knowledge of the language. This means that I am not a native speaker of Ukrainian, so if you notice any errors, please reach out to me at <a href="mailto:lee@leemorgan.dev">lee@leemorgan.dev</a> to notify me of the mistake. I am glad to find any mistakes that I may have made and to fix them as soon as possible.</p>
+
+            <h2>Happy learning!</h2>
         </div>
     </div>
 
