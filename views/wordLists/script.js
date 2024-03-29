@@ -9,8 +9,9 @@ const createList = (body, array)=>{
 
 const filterTable = (body, text)=>{
     for(let i = 0; i < body.children.length; i++){
-        let textContent = body.children[i].children[0].textContent.toLowerCase();
-        if(textContent.includes(text)){
+        let textContentOne = body.children[i].children[0].textContent.toLowerCase();
+        let textContentTwo = body.children[i].children[1].textContent.toLowerCase();
+        if(textContentOne.includes(text) || textContentTwo.includes(text)){
             body.children[i].style.display = "table-row";
         }else{
             body.children[i].style.display = "none";
