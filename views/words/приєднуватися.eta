@@ -1,0 +1,145 @@
+<h1>Приєднуватися - Приєднатися</h1>
+
+<h2>To join</h2>
+
+<h3>Future</h3>
+<div class="verbTense">
+    <table>
+        <caption>Imperfective</caption>
+        <tbody>
+            <tr>
+                <td>Я</td>
+                <td>буду приєднуватися</td>
+            </tr>
+            <tr>
+                <td>Ти</td>
+                <td>будеш приєднуватися</td>
+            </tr>
+            <tr>
+                <td>Він/Вона/Воно</td>
+                <td>будет приєднуватися</td>
+            </tr>
+            <tr>
+                <td>Ми</td>
+                <td>будемо приєднуватися</td>
+            </tr>
+            <tr>
+                <td>Ви</td>
+                <td>будете приєднуватися</td>
+            </tr>
+            <tr>
+                <td>Вони</td>
+                <td>Будуть приєднуватися</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <caption>Perfective</caption>
+        <tbody>
+            <tr>
+                <td>Я</td>
+                <td>Приєднаюся</td>
+            </tr>
+            <tr>
+                <td>Ти</td>
+                <td>Приєднаєшся</td>
+            </tr>
+            <tr>
+                <td>Він/Вона/Воно</td>
+                <td>Приєднається</td>
+            </tr>
+            <tr>
+                <td>Ми</td>
+                <td>Приєднаємося</td>
+            </tr>
+            <tr>
+                <td>Ви</td>
+                <td>Приєднаєтеся</td>
+            </tr>
+            <tr>
+                <td>Вони</td>
+                <td>Приєднаються</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<h3>Present</h3>
+<div class="verbTense">
+    <table>    
+        <tbody>
+            <tr>
+                <td>Я</td>
+                <td>Приєднуюся</td>
+            </tr>
+            <tr>
+                <td>Ти</td>
+                <td>Приєдуєшся</td>
+            </tr>
+            <tr>
+                <td>Він/Вона/Воно</td>
+                <td>Приєднується</td>
+            </tr>
+            <tr>
+                <td>Ми</td>
+                <td>Приєднуємося</td>
+            </tr>
+            <tr>
+                <td>Ви</td>
+                <td>Приєднуєтеся</td>
+            </tr>
+            <tr>
+                <td>Вони</td>
+                <td>Приєднуються</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<h3>Past</h3>
+<div class="verbTense">
+    <table>
+        <caption>Imperfective</caption>
+        <tbody>
+            <tr>
+                <td>Жіночий (Я, Ти, Вона)</td>
+                <td>Приєднувалася</td>
+            </tr>
+            <tr>
+                <td>Чоловічий (Я, Ти, Він)</td>
+                <td>Приєднувався</td>
+            </tr>
+            <tr>
+                <td>Середній (Воно)</td>
+                <td>Приєднувалося</td>
+            </tr>
+            <tr>
+                <td>Множинний (Ми, Ви, Вони)</td>
+                <td>Приєднувалися</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <caption>Perfective</caption>
+        <tbody>
+            <tr>
+                <td>Жіночий (Я, Ти, Вона)</td>
+                <td>Приєдналася</td>
+            </tr>
+            <tr>
+                <td>Чоловічий (Я, Ти, Він)</td>
+                <td>Приєднався</td>
+            </tr>
+            <tr>
+                <td>Середній (Воно)</td>
+                <td>Приєдналося</td>
+            </tr>
+            <tr>
+                <td>Множинний (Ми, Ви, Вони)</td>
+                <td>Приєдналися</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
