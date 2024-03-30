@@ -35,6 +35,7 @@
                     <tr>
                         <td>To join</td>
                         <td>Приєднуватися - Приєднатися</td>
+                        <%~ include("../components/linkIcon.eta", {word: "приєднуватися"}) %>
                     </tr>
                     <tr>
                         <td>To create</td>
