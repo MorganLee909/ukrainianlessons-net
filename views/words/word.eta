@@ -59,7 +59,7 @@
     </style>
 </head>
 <body>
-    <%~ include("../components/header.eta", {title: `Слово: використовувати`}) %>
+    <%~ include("../components/header.eta", {title: it.word.toUpperCase()}) %>
 
     <div id="main">
         <%~ include ("../components/menu.eta") %>
