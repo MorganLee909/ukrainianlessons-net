@@ -1,8 +1,10 @@
 <h1>Приєднуватися - Приєднатися</h1>
 
-<h2>To join</h2>
+<h1>To join</h1>
 
-<h3>Future</h3>
+<div class="divider"></div>
+
+<h2>Future Tense</h2>
 <div class="verbTense">
     <table>
         <caption>Imperfective</caption>
@@ -65,7 +67,7 @@
     </table>
 </div>
 
-<h3>Present</h3>
+<h2>Present Tense</h2>
 <div class="verbTense">
     <table>    
         <tbody>
@@ -97,7 +99,7 @@
     </table>
 </div>
 
-<h3>Past</h3>
+<h2>Past Tense</h2>
 <div class="verbTense">
     <table>
         <caption>Imperfective</caption>
