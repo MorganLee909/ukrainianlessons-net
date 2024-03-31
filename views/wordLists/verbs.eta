@@ -60,6 +60,7 @@
                     <tr>
                         <td>To wake up</td>
                         <td>Прокидатися - Прокинутися</td>
+                        <%~ include("../components/linkIcon.eta", {word: "прокидатися"}) %>
                     </tr>
                     <tr>
                         <td>To reach/achieve</td>
