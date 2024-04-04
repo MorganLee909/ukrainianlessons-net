@@ -65,6 +65,7 @@
                     <tr>
                         <td>To reach/achieve</td>
                         <td>Досягати - Досягнути</td>
+                        <%~ include("../components/linkIcon.eta", {word: "досягати"}) %>
                     </tr>
                     <tr>
                         <td>To prepare/cook</td>
