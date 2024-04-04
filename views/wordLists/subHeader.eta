@@ -18,8 +18,12 @@
         font-family: Roboto;
     }
 
-    .selected{
+    .selected td{
         background: #7facdd;
+    }
+
+    .selected .linkIcon{
+        background: none;
     }
 
     tbody tr{
