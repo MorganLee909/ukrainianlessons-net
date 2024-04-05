@@ -49,10 +49,12 @@
                     <tr>
                         <td>To put/place</td>
                         <td>Ставити - Поставити</td>
+                        <%~ include("../components/linkIcon.eta", {word: "ставити"}) %>
                     </tr>
                     <tr>
                         <td>To rest</td>
                         <td>Відпочивати - Відпочити</td>
+                        <%~ include("../components/linkIcon.eta", {word: "відпочивати"}) %>
                     </tr>
                     <tr>
                         <td>To oversleep</td>
