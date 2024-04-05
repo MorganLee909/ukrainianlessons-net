@@ -43,15 +43,16 @@
                     </tr>
                     <tr>
                         <td>To work</td>
-                        <td>Працювати</td>
+                        <td>Працювати - Попрацювати</td>
+                        <%~ include("../components/linkIcon.eta", {word: "працювати"}) %>
                     </tr>
                     <tr>
                         <td>To put/place</td>
-                        <td>Ставити</td>
+                        <td>Ставити - Поставити</td>
                     </tr>
                     <tr>
                         <td>To rest</td>
-                        <td>Відпочивати</td>
+                        <td>Відпочивати - Відпочити</td>
                     </tr>
                     <tr>
                         <td>To oversleep</td>
@@ -69,7 +70,7 @@
                     </tr>
                     <tr>
                         <td>To prepare/cook</td>
-                        <td>Готуватися</td>
+                        <td>Готувати(ся) - Приготувати(ся)</td>
                     </tr>
                     <tr>
                         <td>To prove</td>
@@ -93,7 +94,7 @@
                     </tr>
                     <tr>
                         <td>To crash</td>
-                        <td>Врізатися - Врізатися</td>
+                        <td>Врізатися</td>
                     </tr>
                     <tr>
                         <td>To survive</td>
