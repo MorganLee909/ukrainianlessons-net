@@ -35,12 +35,22 @@ const addCard = (elem)=>{
 
 const createCustomDeck = ()=>{
     let items = document.querySelectorAll(".selected");
-    let deckString = "";
+
+    let cards = [];
     for(let i = 0; i < items.length; i++){
-        deckString += `${items[i].children[0].textContent},${items[i].children[1].textContent},`;
+        cards.push([items[i].children[0].textContent, items[i].children[1].textContent]);
     }
-    deckString = deckString.substring(0, deckString.length - 1);
-    window.open(`https://flashcards.ukrainianlessons.net/deck/custom?cards=${deckString}`, "_blank");
+
+    let form = document.createElement("form");
+    form.method = "post";
+    form.action = "https://flashcards.ukrainianlessons.net/deck/custom";
+    document.body.appendChild(form);
+    let hidden = document.createElement("input");
+    hidden.type = "hidden";
+    hidden.name = "cards";
+    hidden.value = JSON.stringify(cards);
+    form.appendChild(hidden);
+    form.submit();
 }
 
 let items = document.querySelectorAll("tbody tr");
