@@ -53,6 +53,26 @@ const createCustomDeck = ()=>{
     form.submit();
 }
 
+const createFullDeck = ()=>{
+    let items = document.querySelectorAll("tbody tr");
+
+    let cards = [];
+    for(let i = 0; i < items.length; i++){
+        cards.push([items[i].children[0].textContent, items[i].children[1].textContent]);
+    }
+
+    let form = document.createElement("form");
+    form.method = "post";
+    form.action = "https://flashcards.ukrainianlessons.net/deck/custom";
+    document.body.appendChild(form);
+    let hidden = document.createElement("input");
+    hidden.type = "hidden";
+    hidden.name = "cards";
+    hidden.value = JSON.stringify(cards);
+    form.appendChild(hidden);
+    form.submit();
+}
+
 let items = document.querySelectorAll("tbody tr");
 for(let i = 0; i < items.length; i++){
     items[i].onclick = ()=>{addCard(items[i])};
