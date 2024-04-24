@@ -10,10 +10,18 @@
         p{
             margin: 15px;
         }
+
+        @media screen and (max-width: 850px){
+            body header h1{
+                text-align: center;
+                font-size: 30px;
+            }
+        }
     </style>
 </head>
 <body>
     <%~ include("./components/header.eta", {title: "Ukrainian Language Lessons"}) %>
+    <button id="menuBtn">Menu</button>
 
     <div id="main">
         <%~ include("./components/menu.eta") %>
