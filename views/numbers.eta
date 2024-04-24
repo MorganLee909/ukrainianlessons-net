@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%~ include("./components/head.eta", {title: "Numbers"}) %>
+    <%~ include("./components/table.css") %>
+</head>
+<body>
+   <%~ include("./components/header.eta", {title: "Numbers"}) %>
+   <button id="menuBtn">Menu</button>
+
+   <div id="main">
+        <%~ include("./components/menu.eta", {title: "Numbers"}) %>
+
+        <div id="contents">
+            <h1>0 Through 19</h1>
+
+            <p>The numbers 0 through 19 must simply be memorized. 0 through 10 are the base numbers of course. Then 11 through 19 are similar to the 'teens' in English. They use the base number with a different ending.
+
+            <ol>
+                <li>Нуль</li>
+                <li>Один</li>
+                <li>Два</li>
+                <li>Три</li>
+                <li>Чотири</li>
+                <li>Пʼять</li>
+                <li>Шість</li>
+                <li>Сім</li>
+                <li>Вісім</li>
+                <li>Девʼять</li>
+                <li>Десять</li>
+            </ol>
+
+            <p>11 through 19, as previuosly mentioned, follow a pattern, so once you have memorized 1 through 9, it is easy to remember 11 through 19.
+
+            <ul>
+                <li>Одинадцять</li>
+                <li>Дванадцять</li>
+                <li>Тринадцять</li>
+                <li>Чотирнадцять</li>
+                <li>Пʼятнадцять</li>
+                <li>Шістнадцять</li>
+                <li>Сімнадцять</li>
+                <li>Вісімнадцять</li>
+                <li>Девʼятнадцять</li>
+            </ul>
+
+            <h1>20 through 99</h1>
+
+            <p>Once we get above 19, we only need to learn the numbers for the "tens", such as thirty, forty, eighty. In this case it is very similiar to Enlgish in that you simply use the number for the tens place and add the number for the singles place on the end. Half of the numbers have a similiar pattern, but 20, 30, 40, and 90 are slightly different.
+
+            <table>
+                <caption>Tens place numbers</caption>
+                <tbody>
+                    <tr>
+                        <td>Twenty</td>
+                        <td>Двадцять</td>
+                    </tr>
+                    <tr>
+                        <td>Thirty</td>
+                        <td>Тридцять</td>
+                    </tr>
+                    <tr>
+                        <td>Forty</td>
+                        <td>Сорок</td>
+                    </tr>
+                    <tr>
+                        <td>Fifty</td>
+                        <td>Пʼятдесят</td>
+                    </tr>
+                    <tr>
+                        <td>Sixty</td>
+                        <td>Шістдесять</td>
+                    </tr>
+                    <tr>
+                        <td>Seventy</td>
+                        <td>Сімдесять</td>
+                    </tr>
+                    <tr>
+                        <td>Eighty</td>
+                        <td>Вісімдесять</td>
+                    </tr>
+                    <tr>
+                        <td>Ninety</td>
+                        <td>Девʼяносто</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table>
+                <caption>Examples</caption>
+                <tbody>
+                    <tr>
+                        <td>93</td>
+                        <td>Девʼяносто три</td>
+                    </tr>
+                    <tr>
+                        <td>43</td>
+                        <td>Сорок три</td>
+                    </tr>
+                    <tr>
+                        <td>68</td>
+                        <td>Шістдесять вісім</td>
+                    </tr>
+                    <tr>
+                        <td>99</td>
+                        <td>Девʼяносто девʼять</td>
+                    </tr>
+                    <tr>
+                        <td>64</td>
+                        <td>Шістдесять чотири</td>
+                    </tr>
+                    <tr>
+                        <td>79</td>
+                        <td>Сімдесять девʼять</td>
+                    <tr>
+                    <tr>
+                        <td>59</td>
+                        <td>Пʼятдесять девʼять</td>
+                    </tr>
+                    <tr>
+                        <td>92</td>
+                        <td>Девʼяносто два</td>
+                    </tr>
+                    <tr>
+                        <td>24</td>
+                        <td>Двадцять чотири</td>
+                    </tr>
+                    <tr>
+                        <td>71</td>
+                        <td>Сімдесять один</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+   </div>
+
+   <%~ include("./components/footer.eta") %>
+</body>
+</html>
