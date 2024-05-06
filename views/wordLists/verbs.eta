@@ -91,10 +91,6 @@
                         <td>Кривдити</td>
                     </tr>
                     <tr>
-                        <td>To stop</td>
-                        <td>Перестати</td>
-                    </tr>
-                    <tr>
                         <td>To crash</td>
                         <td>Врізатися</td>
                     </tr>
@@ -109,6 +105,26 @@
                     <tr>
                         <td>To afford</td>
                         <td>Дозволити</td>
+                    </tr>
+                    <tr>
+                        <td>To stop</td>
+                        <td>Зупиняти(ся) - Зупинити(ся)</td>
+                    </tr>
+                    <tr>
+                        <td>To become tired</td>
+                        <td>Втомитися</td>
+                    </tr>
+                    <tr>
+                        <td>To look like</td>
+                        <td>Виглядати</td>
+                    </tr>
+                    <tr>
+                        <td>To scream</td>
+                        <td>Кричати - Покричати</td>
+                    </tr>
+                    <tr>
+                        <td>To fight</td>
+                        <td>Сваритися</td>
                     </tr>
                 </tbody>
             </table>
