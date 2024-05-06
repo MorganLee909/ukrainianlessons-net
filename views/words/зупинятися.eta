@@ -1,0 +1,149 @@
+<h1>Зупиняти(ся) - Зупинити(ся)</h1>
+
+<h1>To stop</h1>
+
+<h2>Future Tense</h2>
+<div class="verbTense">
+    <table>    
+        <caption>Imperfective</caption>
+        <tbody>
+            <tr>
+                <td>Я</td>
+                <td>Буду Зупиня&#769;ти(ся)</td>
+            </tr>
+            <tr>
+                <td>Ти</td>
+                <td>Будеш Зупиня&#769;ти(ся)</td>
+            </tr>
+            <tr>
+                <td>Він/Вона/Воно</td>
+                <td>Буде Зупиня&#769;ти(ся)</td>
+            </tr>
+            <tr>
+                <td>Ми</td>
+                <td>Будемо Зупиня&#769;ти(ся)</td>
+            </tr>
+            <tr>
+                <td>Ви</td>
+                <td>Будете Зупиня&#769;ти(ся)</td>
+            </tr>
+            <tr>
+                <td>Вони</td>
+                <td>Будуть Зупиня&#769;ти(ся)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>    
+        <caption>Perfective</caption>
+        <tbody>
+            <tr>
+                <td>Я</td>
+                <td>Зупиню&#769;(ся)</td>
+            </tr>
+            <tr>
+                <td>Ти</td>
+                <td>Зупи&#769;ниш(ся)</td>
+            </tr>
+            <tr>
+                <td>Він/Вона/Воно</td>
+                <td>Зупи&#769;нить(ся)</td>
+            </tr>
+            <tr>
+                <td>Ми</td>
+                <td>Зупи&#769;нимо(ся)</td>
+            </tr>
+            <tr>
+                <td>Ви</td>
+                <td>Зупи&#769;ните(ся)</td>
+            </tr>
+            <tr>
+                <td>Вони</td>
+                <td>Зупи&#769;нять(ся)</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<h2>Present Tense</h2>
+<div class="verbTense">
+    <table>    
+        <tbody>
+            <tr>
+                <td>Я</td>
+                <td>Зупиня&#769;ю(ся)</td>
+            </tr>
+            <tr>
+                <td>Ти</td>
+                <td>Зупиня&#769;єш(ся)</td>
+            </tr>
+            <tr>
+                <td>Він/Вона/Воно</td>
+                <td>Зупиня&#769;є(ся)</td>
+            </tr>
+            <tr>
+                <td>Ми</td>
+                <td>Зупиня&#769;ємо(ся)</td>
+            </tr>
+            <tr>
+                <td>Ви</td>
+                <td>Зупиня&#769;єте(ся)</td>
+            </tr>
+            <tr>
+                <td>Вони</td>
+                <td>Зупиня&#769;ють(ся)</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<h2>Past Tense</h2>
+<div class="verbTense">
+    <table>
+        <caption>Imperfective</caption>
+        <tbody>
+            <tr>
+                <td rowspan="3">Однина</td>
+                <td>Жіночий (Вона)</td>
+                <td>Зупиня&#769;ла(ся)</td>
+            </tr>
+            <tr>
+                <td>Чоловічий (Він)</td>
+                <td>Зупиня&#769;в(ся)</td>
+            </tr>
+            <tr>
+                <td>Середній (Воно)</td>
+                <td>Зупиня&#769;ло(ся)</td>
+            </tr>
+            <tr>
+                <td>Множина</td>
+                <td>(Ми, Ви, Вони)</td>
+                <td>Зупиня&#769;ли(ся)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <caption>Perfective</caption>
+        <tbody>
+            <tr>
+                <td rowspan="3">Однина</td>
+                <td>Жіночий (Вона)</td>
+                <td>Зупини&#769;ла(ся)</td>
+            </tr>
+            <tr>
+                <td>Чоловічий (Він)</td>
+                <td>Зупини&#769;в(ся)</td>
+            </tr>
+            <tr>
+                <td>Середній (Воно)</td>
+                <td>Зупини&#769;ло(ся)</td>
+            </tr>
+            <tr>
+                <td>Множина</td>
+                <td>(Ми, Ви, Вони)</td>
+                <td>Зупини&#769;ли(ся)</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

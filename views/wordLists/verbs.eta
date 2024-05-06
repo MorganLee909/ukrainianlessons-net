@@ -109,6 +109,7 @@
                     <tr>
                         <td>To stop</td>
                         <td>Зупиняти(ся) - Зупинити(ся)</td>
+                        <%~ include("../components/linkIcon.eta", {word: "зупинятися"}) %>
                     </tr>
                     <tr>
                         <td>To become tired</td>
