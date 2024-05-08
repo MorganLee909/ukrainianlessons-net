@@ -137,5 +137,7 @@
                 </ul>
             </div>
         </div>
+
+        <%~ include("./components/footer.eta") %>
     </body>
 </html>
