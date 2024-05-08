@@ -3,6 +3,11 @@
 <head>
     <%~ include("./components/head.eta", {title: "Numbers"}) %>
     <%~ include("./components/table.css") %>
+    <style>
+        table{
+            margin: 15px;
+        }
+    </style>
 </head>
 <body>
    <%~ include("./components/header.eta", {title: "Numbers"}) %>
@@ -14,39 +19,103 @@
         <div id="contents">
             <h1>0 Through 19</h1>
 
-            <p>The numbers 0 through 19 must simply be memorized. 0 through 10 are the base numbers of course. Then 11 through 19 are similar to the 'teens' in English. They use the base number with a different ending.
+            <p>The numbers 0 through 19 must simply be memorized. 0 through 10 are the base numbers of course. Then 11 through 19 are similar to the 'teens' in English. They use the base number with a different ending.</p>
 
-            <ol>
-                <li>Нуль</li>
-                <li>Один</li>
-                <li>Два</li>
-                <li>Три</li>
-                <li>Чотири</li>
-                <li>Пʼять</li>
-                <li>Шість</li>
-                <li>Сім</li>
-                <li>Вісім</li>
-                <li>Девʼять</li>
-                <li>Десять</li>
-            </ol>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Zero</td>
+                        <td>Нуль</td>
+                    </tr>
+                    <tr>
+                        <td>One</td>
+                        <td>Один</td>
+                    </tr>
+                    <tr>
+                        <td>Two</td>
+                        <td>Два</td>
+                    </tr>
+                    <tr>
+                        <td>Three</td>
+                        <td>Три</td>
+                    </tr>
+                    <tr>
+                        <td>Four</td>
+                        <td>Чотири</td>
+                    </tr>
+                    <tr>
+                        <td>Five</td>
+                        <td>Пʼять</td>
+                    </tr>
+                    <tr>
+                        <td>Six</td>
+                        <td>Шість</td>
+                    </tr>
+                    <tr>
+                        <td>Seven</td>
+                        <td>Сім</td>
+                    </tr>
+                    <tr>
+                        <td>Eight</td>
+                        <td>Вісім</td>
+                    </tr>
+                    <tr>
+                        <td>Nine</td>
+                        <td>Девʼять</td>
+                    </tr>
+                    <tr>
+                        <td>Ten</td>
+                        <td>Десять</td>
+                    </tr>
+                </tbody>
+            </table>
 
-            <p>11 through 19, as previuosly mentioned, follow a pattern, so once you have memorized 1 through 9, it is easy to remember 11 through 19.
+            <p>11 through 19, as previuosly mentioned, follow a pattern, so once you have memorized 1 through 9, it is easy to remember 11 through 19.</p>
 
-            <ul>
-                <li>Одинадцять</li>
-                <li>Дванадцять</li>
-                <li>Тринадцять</li>
-                <li>Чотирнадцять</li>
-                <li>Пʼятнадцять</li>
-                <li>Шістнадцять</li>
-                <li>Сімнадцять</li>
-                <li>Вісімнадцять</li>
-                <li>Девʼятнадцять</li>
-            </ul>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Eleven</td>
+                        <td>Одинадцять</td>
+                    </tr>
+                    <tr>
+                        <td>Twelve</td>
+                        <td>Дванадцять</td>
+                    </tr>
+                    <tr>
+                        <td>Thirteen</td>
+                        <td>Тринадцять</td>
+                    </tr>
+                    <tr>
+                        <td>Fourteen</td>
+                        <td>Чотирнадцять</td>
+                    </tr>
+                    <tr>
+                        <td>Fifteen</td>
+                        <td>Пʼятнадцять</td>
+                    </tr>
+                    <tr>
+                        <td>Sixteen</td>
+                        <td>Шістнадцять</td>
+                    </tr>
+                    <tr>
+                        <td>Seventeen</td>
+                        <td>Сімнадцять</td>
+                    </tr>
+                    <tr>
+                        <td>Eighteen</td>
+                        <td>Вісімнадцять</td>
+                    </tr>
+                    <tr>
+                        <td>Nineteen</td>
+                        <td>Девʼятнадцять</td>
+                    </tr>
+                </tbody>
+            </table>
 
             <h1>20 through 99</h1>
 
-            <p>Once we get above 19, we only need to learn the numbers for the "tens", such as thirty, forty, eighty. In this case it is very similiar to Enlgish in that you simply use the number for the tens place and add the number for the singles place on the end. Half of the numbers have a similiar pattern, but 20, 30, 40, and 90 are slightly different.
+            <p>Once we get above 19, we only need to learn the numbers for the "tens", such as thirty, forty, eighty. In this case it is very similiar to Enlgish in that you simply use the number for the tens place and add the number for the singles place on the end. Half of the numbers have a similiar pattern, but 20, 30, 40, and 90 are slightly different.</p>
 
             <table>
                 <caption>Tens place numbers</caption>
@@ -128,6 +197,151 @@
                     <tr>
                         <td>71</td>
                         <td>Сімдесять один</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h1>100 through 999</h1>
+
+            <p>Once we get to the hundreds it is a pretty simple formula. Just add the "hundreds" number to the beginning, followed by the the 10s or singles place. Much the same as in English.</p>
+
+            <table>
+                <caption>Hundreds place numbers</caption>
+                <tbody>
+                    <tr>
+                        <td>One hundred</td>
+                        <td>Сто</td>
+                    </tr>
+                    <tr>
+                        <td>Two hundred</td>
+                        <td>Двісті</td>
+                    </tr>
+                    <tr>
+                        <td>Three hundred</td>
+                        <td>Триста</td>
+                    </tr>
+                    <tr>
+                        <td>Four hundred</td>
+                        <td>Чотириста</td>
+                    </tr>
+                    <tr>
+                        <td>Five hundred</td>
+                        <td>Пʼятсот</td>
+                    </tr>
+                    <tr>
+                        <td>Six hundred</td>
+                        <td>Шістсот</td>
+                    </tr>
+                    <tr>
+                        <td>Seven hundred</td>
+                        <td>Сімсот</td>
+                    </tr>
+                    <tr>
+                        <td>Eight hundred</td>
+                        <td>Вісімсот</td>
+                    </tr>
+                    <tr>
+                        <td>Nine hundred</td>
+                        <td>Девʼятсот</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table>
+                <caption>Examples</caption>
+                <tbody>
+                    <tr>
+                        <td>267</td>
+                        <td>Двісті шістдесять сім</td>
+                    </tr>
+                    <tr>
+                        <td>440</td>
+                        <td>Чотириста сорок</td>
+                    </tr>
+                    <tr>
+                        <td>503</td>
+                        <td>Пʼятсот три</td>
+                    </tr>
+                    <tr>
+                        <td>690</td>
+                        <td>Шістсот девʼяносто</td>
+                    </tr>
+                    <tr>
+                        <td>319</td>
+                        <td>Триста девʼятнадцять</td>
+                    </tr>
+                    <tr>
+                        <td>743</td>
+                        <td>Сімсот сорок три</td>
+                    </tr>
+                    <tr>
+                        <td>942</td>
+                        <td>Девʼятсот сорок два</td>
+                    </tr>
+                    <tr>
+                        <td>799</td>
+                        <td>Сімсот девʼяносто девʼять</td>
+                    </tr>
+                    <tr>
+                        <td>999</td>
+                        <td>Девʼятсот девʼяносто девʼять</td>
+                    </tr>
+                    <tr>
+                        <td>274</td>
+                        <td>Двісті сімдесять чотири</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h1>1000 and beyond</h1>
+            <p>Beyond 999, the thousands, millions, billions, etc. maintains a pattern that matches English. Such as "one thousand", "two thousand", etc. Followed the rest of the number. From this point on it is just a matter of remembering the words for thousands, millions, etc.</p>
+
+            <p>The one difference between English and Ukrainian here is gender. The numbers have genders and sometimes they will change slightly. Don't worry about that too much now as we have not discussed that yet.</p>
+
+            <table>
+                <caption>Larger Numbers</caption>
+                <tbody>
+                    <tr>
+                        <td>One thousand</td>
+                        <td>Тисяча</td>
+                    </tr>
+                    <tr>
+                        <td>One million</td>
+                        <td>Мільйон</td>
+                    </tr>
+                    <tr>
+                        <td>One billion</td>
+                        <td>Мільярд</td>
+                    </tr>
+                    <tr>
+                        <td>One trillion</td>
+                        <td>Трильйон</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table>
+                <caption>Examples</caption>
+                <tbody>
+                    <tr>
+                        <td>14,013,433</td>
+                        <td>Чотирнадять мільонів тринадцять тисячів чотирста тридцять три</td>
+                    </tr>
+                    <tr>
+                        <td>186,188,162</td>
+                        <td>Сто вісімдесять шість мільонів, сто вісімдесять вісім тисячів, сто шістдесять два</td>
+                    </tr>
+                    <tr>
+                        <td>824,563,107</td>
+                        <td>Вісімсот двадцять чотири мільонів, пʼятсот шістдесять три тисячів, сто сім</td>
+                    </tr>
+                    <tr>
+                        <td>5,298,511</td>
+                        <td>Пʼять мільйонів, двісті девʼяносто вісім, пʼятсот одинадцять</td>
+                    </tr>
+                    <tr>
+                        <td>445,910,745</td>
+                        <td>Чотирста сорок пʼять мільйонів, девʼятсот десять тисячів, сімсот сорок пʼять</td>
                     </tr>
                 </tbody>
             </table>
