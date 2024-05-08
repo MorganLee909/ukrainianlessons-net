@@ -10,11 +10,12 @@
 
     <a href="/">Home</a>
     <h5>Lessons</h5>
-    <a href="/numbers">Numbers (Числа)</a>
-    <a href="/verbs">Verbs (Дієслова)</a>
+    <a href="/numbers">Numbers</a>
+    <a href="/basic-phrases">Basic phrases</a>
+    <a href="/verbs">Verbs</a>
     <h5>Word Lists</h5>
-    <a href="/wordlist/food">Food (Їжа)</a>
-    <a href="/wordlist/verbs">Verbs (Дієслова)</a>
+    <a href="/wordlist/food">Food</a>
+    <a href="/wordlist/verbs">Verbs</a>
     <h5>Tools</h5>
     <a href="https://flashcards.ukrainianlessons.net">Flash cards</a>
 </div>

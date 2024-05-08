@@ -1,7 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <%~ include("./components/head.eta", {title: "Basic Phrases"})
+        <%~ include("./components/head.eta", {title: "Basic Phrases"}) %>
+        <style>
+            #contents{
+                max-width: 1200px;
+            }
+
+            .paragraph{
+                margin-bottom: 35px;
+            }
+
+            ul{
+                list-style-type: none;
+            }
+
+            li{
+                align-items: center;
+                margin: 25px;
+            }
+
+            li p:first-of-type{
+                display: inline;
+                font-weight: bold;
+            }
+
+            li p:first-of-type:after{
+                content: ":";
+                margin-right: 5px;
+            }
+
+            li p:nth-child(2){
+                display: inline;
+            }
+
+            li p:nth-child(3){
+                color: gray;
+            }
+        </style>
     </head>
     <body>
         <%~ include("./components/header.eta", {title: "Basic Phrases"}) %>
@@ -11,12 +47,90 @@
             <%~ include("./components/menu.eta", {title: "Basic Phrases"}) %>
 
             <div id="contents">
-                <p>A good start to learning Ukrainian is to learn some common words/phrases that you are likely to hear/use on a daily basis in Ukraine. These are good to memorize from the start as they can give you some basics in communication and practice in speaking the language. While this is definitely not an exhaustive list, it is a decent enough start</p>
+                <p class="paragraph">A good start to learning Ukrainian is to learn some common words/phrases that you are likely to hear/use on a daily basis in Ukraine. These are good to memorize from the start as they can give you some basics in communication and practice in speaking the language. While this is definitely not an exhaustive list, it is a decent enough start</p>
 
                 <ul>
                     <li>
                         <p>Так</p>
                         <p>Yes</p>
+                    </li>
+                    <li>
+                        <p>Ні</p>
+                        <p>No</p>
+                    </li>
+                    <li>
+                        <p>Дякую</p>
+                        <p>Thank you</p>
+                    </li>
+                    <li>
+                        <p>Будь ласка</p>
+                        <p>Please</p>
+                        <p>This is also used for "you're welcome". When presented with something, such at a store, or your meal at a restaurant, you might here this right away. Unlike in English, they don't wait for "thank you" to say it. Sort of like saying "Here you go".</p>
+                    </li>
+                    <li>
+                        <p>Добрий день</p>
+                        <p>Good day</p>
+                        <p>This is used as a common greeting, like saying "hello". This is the slightly less formal way of saying it.</p>
+                    </li>
+                    <li>
+                        <p>Доброго дня</p>
+                        <p>Good day</p>
+                        <p>Again, this is a common greeting, but the formal version of it.</p>
+                    </li>
+                    <li>
+                        <p>Привіт</p>
+                        <p>Hi</p>
+                        <p>Very informal greeting, only used with close friends, or people of similar age in an informal setting</p>
+                    </li>
+                    <li>
+                        <p>Вибачте</p>
+                        <p>I'm sorry / excuse me</p>
+                        <p>Formal version</p>
+                    </li>
+                    <li>
+                        <p>Вибач</p>
+                        <p>I'm sorry / excuse me</p>
+                        <p>Informal version</p>
+                    <li>
+                        <p>Мене звати...</p>
+                        <p>My name is...</p>
+                    </li>
+                    <li>
+                        <p>Як вас(тебе) звати?</p>
+                        <p>What is your name?</p>
+                    </li>
+                    <li>
+                        <p>Ласкаво просимо</p>
+                        <p>Welcome</p>
+                    </li>
+                    <li>
+                        <p>Як справи?</p>
+                        <p>How are you?</p>
+                    </li>
+                    <li>
+                        <p>Приємно познайомитись</p>
+                        <p>Nice to meet you<p>
+                    </li>
+                    <li>
+                        <p>До побачення</p>
+                        <p>Goodbye</p>
+                    </li>
+                    <li>
+                        <p>Папа</p>
+                        <p>Bye</p>
+                        <p>Informal version, use only with close friends</p>
+                    </li>
+                    <li>
+                        <p>Я говорою українською не дуже добре</p>
+                        <p>I don't speak Ukrainian very well</p>
+                    </li>
+                    <li>
+                        <p>Ви говорите англійською?</p>
+                        <p>Do you speak English?</p>
+                    </li>
+                    <li>
+                        <p>Я не розумію</p>
+                        <p>I don't understand</p>
                     </li>
                 </ul>
             </div>

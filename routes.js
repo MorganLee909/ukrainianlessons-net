@@ -16,6 +16,7 @@ module.exports = (app)=>{
     //LESSONS
     app.get("/verbs", (req, res)=>res.send(eta.render("verbs.eta")));
     app.get("/numbers", (req, res)=>res.send(eta.render("numbers.eta")));
+    app.get("/basic-phrases", (req, res)=>res.send(eta.render("basicPhrases.eta")));
 
     //OTHER
     app.get("/", (req, res)=>res.send(eta.render("landing.eta")));
