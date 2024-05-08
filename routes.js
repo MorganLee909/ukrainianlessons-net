@@ -14,6 +14,7 @@ module.exports = (app)=>{
     app.get("/wordlist/:name", (req, res)=>res.send(eta.render(`wordLists/${req.params.name}.eta`)));
 
     //LESSONS
+    app.get("/gender", (req, res)=>res.send(eta.render("gender.eta")));
     app.get("/verbs", (req, res)=>res.send(eta.render("verbs.eta")));
     app.get("/numbers", (req, res)=>res.send(eta.render("numbers.eta")));
     app.get("/basic-phrases", (req, res)=>res.send(eta.render("basicPhrases.eta")));
