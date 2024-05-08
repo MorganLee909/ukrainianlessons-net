@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <%~ include("../components/head.eta", {title: "Food / Їжа"}) %>
+    <%~ include("../components/head.eta", {title: "Food"}) %>
     <%~ include("../components/table.css") %>
     <style>
         #contents{
@@ -18,11 +18,11 @@
     </style>
 </head>
 <body>
-    <%~ include("../components/header.eta", {title: "Food / Їжа"}) %>
+    <%~ include("../components/header.eta", {title: "Food"}) %>
     <button id="menuBtn">Menu</button>
 
     <div id="main">
-       <%~ include("../components/menu.eta", {title: "Food / Їжа"}) %>
+       <%~ include("../components/menu.eta", {title: "Food"}) %>
 
        <div id="contents">
            <%~ include("./subHeader.eta") %>
