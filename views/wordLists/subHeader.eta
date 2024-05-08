@@ -36,7 +36,7 @@
         <input type="text" id="textInput" oninput="textSearch()"/>
     </label>
 
-    <button id="createFullDeck" class="createDeck" onclick="createFullDeck()">Verbs Flashcards</button>
+    <button id="createFullDeck" class="createDeck" onclick="createFullDeck()">Flashcards</button>
 
     <button id="createDeck" class="createDeck" onclick="createCustomDeck()" style="display:none">Create deck from selected</button>
 </div>
