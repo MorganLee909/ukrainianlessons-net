@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <%~ include("./components/head.eta", {title: "Nouns and gender"}) %>
+        <%~ include("./components/table.css") %>
     </head>
     <body>
         <%~ include("./components/header.eta", {title: "Nouns and gender"}) %>
@@ -10,7 +11,61 @@
             <%~ include("./components/menu.eta", {title: "Nouns and gender"}) %>
 
             <div id="contents">
-                <p>                
+                <p>In Ukrainian, every noun has a gender. There are three different genders:</p>
+
+                <ul>
+                    <li>Masculine (Чоловічий рід)</li>
+                    <li>Feminine (Жіночий рід)</li>
+                    <li>Neuter (Середній рід)</li>
+                </ul>
+
+                <p>The gender of a noun is important in a few ways. First, when a verb is conjugated in the past tense, the gender of the subject determines how the verb is conjugated. Second, any adjective describing the noun will change its ending slightly depending on the gender.<p>
+
+                <p>The gender of a noun is deteremined simply by the last character in the word. See the table below for which characters determine which gender:</p>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Masculine</th>
+                            <th>Feminine</th>
+                            <th>Neuter</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Consonant</td>
+                            <td>-а, -я</td>
+                            <td>-о, -е</td>
+                        </tr>
+                        <tr>
+                            <td>Дім</td>
+                            <td>Кава</td>
+                            <td>Дерево</td>
+                        </tr>
+                        <tr>
+                            <td>Чоловік</td>
+                            <td>Жінка</td>
+                            <td>Море</td>
+                        </tr>
+                        <tr>
+                            <td>Студент</td>
+                            <td>Пісня</td>
+                            <td>Місто</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p>As you can see, determining the gender of a noun in Ukrainian is pretty easy. However, just like with pretty everything else, there are exceptions.</p>
+
+                <p>One of the main exceptions is when the word ends with "double consonant + я". This is fairly common, and if you see this, the word is not feminine, but it is actually neuter. Here are some examples:
+
+                    <ul>
+                        <li>Кохання (love)</li>
+                        <li>Завдання (task)</li>
+                        <li>Життя (life)</li>
+                        <li>Обличчя (face)</li>
+                        <li>Волосся (hair)</li>
+                    </ul>
             </div>
         </div>
 
