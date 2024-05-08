@@ -73,6 +73,7 @@
                     <tr>
                         <td>To prepare/cook</td>
                         <td>Готувати(ся) - Приготувати(ся)</td>
+                        <%~ include("../components/linkIcon.eta", {word: "готувати"}) %>
                     </tr>
                     <tr>
                         <td>To prove</td>
@@ -122,6 +123,7 @@
                     <tr>
                         <td>To scream</td>
                         <td>Кричати - Покричати</td>
+                        <%~ include("../components/linkIcon.eta", {word: "кричати"}) %>
                     </tr>
                     <tr>
                         <td>To fight</td>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <%~ include ("./components/head.eta", {title: "Verbs"}) %>
+    <%~ include("./components/head.eta", {title: "Verbs"}) %>
     <%~ include('./components/table.css') %>
     <style>
         h1, h2, h3{
@@ -46,7 +46,7 @@
     <button id="menuBtn">Menu</button>
 
     <div id="main">
-        <%~ include ("./components/menu.eta", {title: "Verbs"}) %>
+        <%~ include("./components/menu.eta", {title: "Verbs"}) %>
 
         <div id="contents">
             <h1>Overview</h1>
