@@ -3,6 +3,15 @@
     <head>
         <%~ include("./components/head.eta", {title: "Nouns and gender"}) %>
         <%~ include("./components/table.css") %>
+        <style>
+            ul{
+                margin-left: 15px;
+            }
+
+            p{
+                margin: 15px 0;
+            }
+        </style>
     </head>
     <body>
         <%~ include("./components/header.eta", {title: "Nouns and gender"}) %>
@@ -59,13 +68,32 @@
 
                 <p>One of the main exceptions is when the word ends with "double consonant + я". This is fairly common, and if you see this, the word is not feminine, but it is actually neuter. Here are some examples:
 
-                    <ul>
-                        <li>Кохання (love)</li>
-                        <li>Завдання (task)</li>
-                        <li>Життя (life)</li>
-                        <li>Обличчя (face)</li>
-                        <li>Волосся (hair)</li>
-                    </ul>
+                <ul>
+                    <li>Кохання (love)</li>
+                    <li>Завдання (task)</li>
+                    <li>Життя (life)</li>
+                    <li>Обличчя (face)</li>
+                    <li>Волосся (hair)</li>
+                </ul>
+
+                <p>Then, of course, are the words that are just exceptions that you have to memorize because they don't follow the rules. Here are some of the exceptions:</p>
+
+                <h2>Masculine</h2>
+
+                <ul>
+                    <li>Батько</li>
+                    <li>Тато</li>
+                    <li>Дядько</li>
+                </ul>
+
+                <h2>Feminine</h2>
+
+                <ul>
+                    <li>Любов</li>
+                    <li>Кров</li>
+                    <li>Ніч</li>
+                    <li>Річ</li>
+                </ul>
             </div>
         </div>
 
