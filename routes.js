@@ -11,7 +11,12 @@ module.exports = (app)=>{
     app.get('/words/:word', (req, res)=>res.send(eta.render(`words/word.eta`, {word: req.params.word})));
 
     //WORDLISTS
-    app.get("/wordlist/:name", (req, res)=>res.send(eta.render(`wordLists/${req.params.name}.eta`)));
+    app.get("/wordlist/:name", (req, res)=>{
+        res.send(eta.render("wordLists/template.eta", {
+            title: req.params.name.toUpperCase(),
+            file: `./${req.params.name}.eta`
+        }));
+    });
 
     //LESSONS
     app.get("/gender", (req, res)=>res.send(eta.render("gender.eta")));

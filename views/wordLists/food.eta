@@ -1,304 +1,267 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <%~ include("../components/head.eta", {title: "Food"}) %>
-    <%~ include("../components/table.css") %>
-    <style>
-        #contents{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+<table>
+   <caption>Nouns</caption>
+    <thead>
+        <tr>
+            <th>English</th>
+            <th>Українська</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr data-type="drink">
+            <td>Coffee</td>
+            <td>Кава</td>
+        </tr>
+        <tr data-type="drink">
+            <td>Water</td>
+            <td>Вода</td>
+        </tr>
+        <tr data-type="drink">
+            <td>Tea</td>
+            <td>Чай</td>
+        </tr>
+        <tr data-type="drink">
+            <td>Wine</td>
+            <td>Вино</td>
+        </tr>
+        <tr data-type="drink">
+            <td>Beer</td>
+            <td>Пиво</td>
+        </tr>
+        <tr data-type="drink">
+            <td>Juice</td>
+            <td>Сок</td>
+        </tr>
+        <tr data-type="drink">
+            <td>Milk</td>
+            <td>Молоко</td>
+        </tr>
+        <tr>
+            <td>Cheese</td>
+            <td>Сир</td>
+        </tr>
+        <tr>
+            <td>Butter</td>
+            <td>Масло</td>
+        </tr>
+        <tr>
+            <td>Cream</td>
+            <td>Крем</td>
+        </tr>
+        <tr>
+            <td>Yogurt</td>
+            <td>Йогурт</td>
+        </tr>
+        <tr data-type="desert">
+            <td>Cake</td>
+            <td>Торт</td>
+        </tr>
+        <tr data-type="desert">
+            <td>Cookie</td>
+            <td>Печиво</td>
+        </tr>
+        <tr data-type="desert">
+            <td>Chocolate</td>
+            <td>Шоколад</td>
+        </tr>
+        <tr data-type="desert">
+            <td>Ice Cream</td>
+            <td>Морозиво</td>
+        </tr>
+        <tr data-type="desert">
+            <td>Pie</td>
+            <td>Пиріг</td>
+        </tr>
+        <tr data-type="fruit">
+            <td>Apple</td>
+            <td>Яблуко</td>
+        </tr>
+        <tr data-type="fruit">
+            <td>Orange</td>
+            <td>Апельсин</td>
+        </tr>
+        <tr data-type="fruit">
+            <td>Banana</td>
+            <td>Банан</td>
+        </tr>
+        <tr data-type="fruit">
+            <td>Grape</td>
+            <td>Виноград</td>
+        </tr>
+        <tr data-type="fruit">
+            <td>Pineapple</td>
+            <td>Ананас</td>
+        </tr>
+        <tr data-type="fruit">
+            <td>Kiwi</td>
+            <td>Ківі</td>
+        </tr>
+        <tr data-type="fruit">
+            <td>Lemon</td>
+            <td>Лимон</td>
+        </tr>
+        <tr data-type="fruit">
+            <td>Lime</td>
+            <td>Лайм</td>
+        </tr>
+        <tr>
+            <td>Cereal</td>
+            <td>Крупа</td>
+        </tr>
+        <tr>
+            <td>Bread</td>
+            <td>Хліб</td>
+        </tr>
+        <tr data-type="vegetable">
+            <td>Potato</td>
+            <td>Картопля</td>
+        </tr>
+        <tr data-type="meat">
+            <td>Beef</td>
+            <td>Явлочина</td>
+        </tr>
+        <tr data-type="meat">
+            <td>Chicken</td>
+            <td>Курка</td>
+        </tr>
+        <tr data-type="meat">
+            <td>Pork</td>
+            <td>Свинина</td>
+        </tr>
+        <tr data-type="meat">
+            <td>Salmon</td>
+            <td>Лосось</td>
+        </tr>
+        <tr data-type="meat">
+            <td>Trout</td>
+            <td>Форель</td>
+        </tr>
+        <tr data-type="vegetable">
+            <td>Beans</td>
+            <td>Квасоля</td>
+        </tr>
+        <tr data-type="vegetable">
+            <td>Cabbage</td>
+            <td>Капуста</td>
+        </tr>
+        <tr data-type="vegetable">
+            <td>Carrots</td>
+            <td>Морква</td>
+        </tr>
+        <tr data-type="vegetable">
+            <td>Broccoli</td>
+            <td>Брокколі</td>
+        </tr>
+        <tr data-type="vegetable">
+            <td>Cauliflower</td>
+            <td>Цвітна капуста</td>
+        </tr>
+        <tr data-type="meat">
+            <td>Egg</td>
+            <td>Яйце</td>
+        </tr>
+        <tr data-type="vegetable">
+            <td>Peas</td>
+            <td>Горох</td>
+        </tr>
+        <tr data-type="vegetable">
+            <td>Egg Plant</td>
+            <td>Баклажани</td>
+        </tr>
+    </tbody>
+</table>
 
-        #wordLists{
-            display: flex;
-            justify-content: space-around;
-            width: 100%;
-        }
-    </style>
-</head>
-<body>
-    <%~ include("../components/header.eta", {title: "Food"}) %>
-    <button id="menuBtn">Menu</button>
+<table>
+    <caption>Adjectives</caption>
+    <thead>
+        <tr>
+            <th>English</th>
+            <th>Українська</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Bland</td>
+            <td>Мʼякий</td>
+        </tr>
+        <tr>
+            <td>Fatty</td>
+            <td>Жирний</td>
+        </tr>
+        <tr>
+            <td>Healthy</td>
+            <td>Здоровий</td>
+        </tr>
+        <tr>
+            <td>Oily</td>
+            <td>Жирний</td>
+        </tr>
+        <tr>
+            <td>Raw</td>
+            <td>Сирий</td>
+        </tr>
+        <tr>
+            <td>Salty</td>
+            <td>Солоний</td>
+        </tr>
+        <tr>
+            <td>Sour</td>
+            <td>Кислий</td>
+        </tr>
+        <tr>
+            <td>Spicy</td>
+            <td>Гострий</td>
+        </tr>
+        <tr>
+            <td>Sweet</td>
+            <td>Солодкий</td>
+        </tr>
+        <tr>
+            <td>Tender</td>
+            <td>Ніжний</td>
+        </tr>
+        <tr>
+            <td>Tough</td>
+            <td>Жорсткий</td>
+        </tr>
+    </tbody>
+</table>
 
-    <div id="main">
-       <%~ include("../components/menu.eta", {title: "Food"}) %>
-
-       <div id="contents">
-           <%~ include("./subHeader.eta") %>
-           <div id="wordLists">
-               <table>
-                   <caption>Nouns</caption>
-                    <thead>
-                        <tr>
-                            <th>English</th>
-                            <th>Українська</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr data-type="drink">
-                            <td>Coffee</td>
-                            <td>Кава</td>
-                        </tr>
-                        <tr data-type="drink">
-                            <td>Water</td>
-                            <td>Вода</td>
-                        </tr>
-                        <tr data-type="drink">
-                            <td>Tea</td>
-                            <td>Чай</td>
-                        </tr>
-                        <tr data-type="drink">
-                            <td>Wine</td>
-                            <td>Вино</td>
-                        </tr>
-                        <tr data-type="drink">
-                            <td>Beer</td>
-                            <td>Пиво</td>
-                        </tr>
-                        <tr data-type="drink">
-                            <td>Juice</td>
-                            <td>Сок</td>
-                        </tr>
-                        <tr data-type="drink">
-                            <td>Milk</td>
-                            <td>Молоко</td>
-                        </tr>
-                        <tr>
-                            <td>Cheese</td>
-                            <td>Сир</td>
-                        </tr>
-                        <tr>
-                            <td>Butter</td>
-                            <td>Масло</td>
-                        </tr>
-                        <tr>
-                            <td>Cream</td>
-                            <td>Крем</td>
-                        </tr>
-                        <tr>
-                            <td>Yogurt</td>
-                            <td>Йогурт</td>
-                        </tr>
-                        <tr data-type="desert">
-                            <td>Cake</td>
-                            <td>Торт</td>
-                        </tr>
-                        <tr data-type="desert">
-                            <td>Cookie</td>
-                            <td>Печиво</td>
-                        </tr>
-                        <tr data-type="desert">
-                            <td>Chocolate</td>
-                            <td>Шоколад</td>
-                        </tr>
-                        <tr data-type="desert">
-                            <td>Ice Cream</td>
-                            <td>Морозиво</td>
-                        </tr>
-                        <tr data-type="desert">
-                            <td>Pie</td>
-                            <td>Пиріг</td>
-                        </tr>
-                        <tr data-type="fruit">
-                            <td>Apple</td>
-                            <td>Яблуко</td>
-                        </tr>
-                        <tr data-type="fruit">
-                            <td>Orange</td>
-                            <td>Апельсин</td>
-                        </tr>
-                        <tr data-type="fruit">
-                            <td>Banana</td>
-                            <td>Банан</td>
-                        </tr>
-                        <tr data-type="fruit">
-                            <td>Grape</td>
-                            <td>Виноград</td>
-                        </tr>
-                        <tr data-type="fruit">
-                            <td>Pineapple</td>
-                            <td>Ананас</td>
-                        </tr>
-                        <tr data-type="fruit">
-                            <td>Kiwi</td>
-                            <td>Ківі</td>
-                        </tr>
-                        <tr data-type="fruit">
-                            <td>Lemon</td>
-                            <td>Лимон</td>
-                        </tr>
-                        <tr data-type="fruit">
-                            <td>Lime</td>
-                            <td>Лайм</td>
-                        </tr>
-                        <tr>
-                            <td>Cereal</td>
-                            <td>Крупа</td>
-                        </tr>
-                        <tr>
-                            <td>Bread</td>
-                            <td>Хліб</td>
-                        </tr>
-                        <tr data-type="vegetable">
-                            <td>Potato</td>
-                            <td>Картопля</td>
-                        </tr>
-                        <tr data-type="meat">
-                            <td>Beef</td>
-                            <td>Явлочина</td>
-                        </tr>
-                        <tr data-type="meat">
-                            <td>Chicken</td>
-                            <td>Курка</td>
-                        </tr>
-                        <tr data-type="meat">
-                            <td>Pork</td>
-                            <td>Свинина</td>
-                        </tr>
-                        <tr data-type="meat">
-                            <td>Salmon</td>
-                            <td>Лосось</td>
-                        </tr>
-                        <tr data-type="meat">
-                            <td>Trout</td>
-                            <td>Форель</td>
-                        </tr>
-                        <tr data-type="vegetable">
-                            <td>Beans</td>
-                            <td>Квасоля</td>
-                        </tr>
-                        <tr data-type="vegetable">
-                            <td>Cabbage</td>
-                            <td>Капуста</td>
-                        </tr>
-                        <tr data-type="vegetable">
-                            <td>Carrots</td>
-                            <td>Морква</td>
-                        </tr>
-                        <tr data-type="vegetable">
-                            <td>Broccoli</td>
-                            <td>Брокколі</td>
-                        </tr>
-                        <tr data-type="vegetable">
-                            <td>Cauliflower</td>
-                            <td>Цвітна капуста</td>
-                        </tr>
-                        <tr data-type="meat">
-                            <td>Egg</td>
-                            <td>Яйце</td>
-                        </tr>
-                        <tr data-type="vegetable">
-                            <td>Peas</td>
-                            <td>Горох</td>
-                        </tr>
-                        <tr data-type="vegetable">
-                            <td>Egg Plant</td>
-                            <td>Баклажани</td>
-                        </tr>
-                    </tbody>
-               </table>
-
-               <table>
-                    <caption>Adjectives</caption>
-                    <thead>
-                        <tr>
-                            <th>English</th>
-                            <th>Українська</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Bland</td>
-                            <td>Мʼякий</td>
-                        </tr>
-                        <tr>
-                            <td>Fatty</td>
-                            <td>Жирний</td>
-                        </tr>
-                        <tr>
-                            <td>Healthy</td>
-                            <td>Здоровий</td>
-                        </tr>
-                        <tr>
-                            <td>Oily</td>
-                            <td>Жирний</td>
-                        </tr>
-                        <tr>
-                            <td>Raw</td>
-                            <td>Сирий</td>
-                        </tr>
-                        <tr>
-                            <td>Salty</td>
-                            <td>Солоний</td>
-                        </tr>
-                        <tr>
-                            <td>Sour</td>
-                            <td>Кислий</td>
-                        </tr>
-                        <tr>
-                            <td>Spicy</td>
-                            <td>Гострий</td>
-                        </tr>
-                        <tr>
-                            <td>Sweet</td>
-                            <td>Солодкий</td>
-                        </tr>
-                        <tr>
-                            <td>Tender</td>
-                            <td>Ніжний</td>
-                        </tr>
-                        <tr>
-                            <td>Tough</td>
-                            <td>Жорсткий</td>
-                        </tr>
-                    </tbody>
-               </table>
-
-               <table>
-                    <caption>Verbs</caption> 
-                    <thead>
-                        <tr>
-                            <th>English</th>
-                            <th>Українська</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>To bake</td>
-                            <td>Спекати</td>
-                        </tr>
-                        <tr>
-                            <td>To peel</td>
-                            <td>Очистити</td>
-                        </tr>
-                        <tr>
-                            <td>To fry</td>
-                            <td>Смажити</td>
-                        </tr>
-                        <tr>
-                            <td>To steam</td>
-                            <td>Пасерувати</td>
-                        </tr>
-                        <tr>
-                            <td>To slice</td>
-                            <td>Нарізати</td>
-                        </tr>
-                        <tr>
-                            <td>To boil</td>
-                            <td>Варити</td>
-                        </tr>
-                        <tr>
-                            <td>To measure</td>
-                            <td>Вимірювати</td>
-                        </tr>
-                    </tbody>
-               </table>
-           </div>
-       </div>
-    </div>
-
-    <%~ include("../components/footer.eta") %>
-    <script><%~ include("./script.js")%></script>
-</body>
-</html>
+<table>
+    <caption>Verbs</caption> 
+    <thead>
+        <tr>
+            <th>English</th>
+            <th>Українська</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>To bake</td>
+            <td>Спекати</td>
+        </tr>
+        <tr>
+            <td>To peel</td>
+            <td>Очистити</td>
+        </tr>
+        <tr>
+            <td>To fry</td>
+            <td>Смажити</td>
+        </tr>
+        <tr>
+            <td>To steam</td>
+            <td>Пасерувати</td>
+        </tr>
+        <tr>
+            <td>To slice</td>
+            <td>Нарізати</td>
+        </tr>
+        <tr>
+            <td>To boil</td>
+            <td>Варити</td>
+        </tr>
+        <tr>
+            <td>To measure</td>
+            <td>Вимірювати</td>
+        </tr>
+    </tbody>
+</table>

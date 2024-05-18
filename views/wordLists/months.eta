@@ -1,84 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <%~ include("../components/head.eta", {title: "Months"}) %>
-    <%~ include("../components/table.css") %>
-    <style>
-        #contents{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-    </style>
-</head>
-<body>
-    <%~ include("../components/header.eta", {title: "Months"}) %>
-    <button id="menuBtn">Menu</button>
-
-    <div id="main">
-        <%~ include("../components/menu.eta", {title: "Months"}) %>
-
-        <div id="contents">
-            <%~ include("./subHeader.eta") %>
-            <table>
-                <thead>
-                    <tr>
-                        <th>English</th>
-                        <th>Українська</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>January</td>
-                        <td>Січень</td>
-                    </tr>
-                    <tr>
-                        <td>February</td>
-                        <td>Лютий</td>
-                    </tr>
-                    <tr>
-                        <td>March</td>
-                        <td>Березень</td>
-                    </tr>
-                    <tr>
-                        <td>April</td>
-                        <td>Квітень</td>
-                    </tr>
-                    <tr>
-                        <td>May</td>
-                        <td>Травень</td>
-                    </tr>
-                    <tr>
-                        <td>June</td>
-                        <td>Червень</td>
-                    </tr>
-                    <tr>
-                        <td>July</td>
-                        <td>Липень</td>
-                    </tr>
-                    <tr>
-                        <td>August</td>
-                        <td>Серпень</td>
-                    </tr>
-                    <tr>
-                        <td>September</td>
-                        <td>Вересень</td>
-                    </tr>
-                    <tr>
-                        <td>October</td>
-                        <td>Жовтень</td>
-                    </tr>
-                    <tr>
-                        <td>November</td>
-                        <td>Листопад</td>
-                    </tr>
-                    <tr>
-                        <td>December</td>
-                        <td>Грудень</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-</body>
-</html>
+<table>
+    <thead>
+        <tr>
+            <th>English</th>
+            <th>Українська</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>January</td>
+            <td>Січень</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>Лютий</td>
+        </tr>
+        <tr>
+            <td>March</td>
+            <td>Березень</td>
+        </tr>
+        <tr>
+            <td>April</td>
+            <td>Квітень</td>
+        </tr>
+        <tr>
+            <td>May</td>
+            <td>Травень</td>
+        </tr>
+        <tr>
+            <td>June</td>
+            <td>Червень</td>
+        </tr>
+        <tr>
+            <td>July</td>
+            <td>Липень</td>
+        </tr>
+        <tr>
+            <td>August</td>
+            <td>Серпень</td>
+        </tr>
+        <tr>
+            <td>September</td>
+            <td>Вересень</td>
+        </tr>
+        <tr>
+            <td>October</td>
+            <td>Жовтень</td>
+        </tr>
+        <tr>
+            <td>November</td>
+            <td>Листопад</td>
+        </tr>
+        <tr>
+            <td>December</td>
+            <td>Грудень</td>
+        </tr>
+    </tbody>
+</table>

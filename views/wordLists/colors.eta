@@ -1,87 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <%~ include("../components/head.eta", {title: "Colors"}) %>
-        <%~ include("../components/table.css") %>
-        <style>
-            #contents{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
-        </style>
-    </head>
-    <body>
-        <%~ include("../components/header.eta", {title: "Colors"}) %>
-        <button id="menuBtn">Menu</button>
-
-        <div id="main">
-            <%~ include("../components/menu.eta", {title: "Colors"}) %>
-
-            <div id="contents">
-                <%~ include("./subHeader.eta") %>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>English</th>
-                            <th>Українська</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Black</td>
-                            <td>Чорний</td>
-                        </tr>
-                        <tr>
-                            <td>White</td>
-                            <td>Білий</td>
-                        </tr>
-                        <tr>
-                            <td>Dark blue</td>
-                            <td>Сіній</td>
-                        </tr>
-                        <tr>
-                            <td>Light blue</td>
-                            <td>Голубий</td>
-                        </tr>
-                        <tr>
-                            <td>Red</td>
-                            <td>Червоний</td>
-                        </tr>
-                        <tr>
-                            <td>Gray</td>
-                            <td>Сірий</td>
-                        </tr>
-                        <tr>
-                            <td>Yellow</td>
-                            <td>Жовтий</td>
-                        </tr>
-                        <tr>
-                            <td>Green</td>
-                            <td>Зелений</td>
-                        </tr>
-                        <tr>
-                            <td>Orange</td>
-                            <td>Оранжевий</td>
-                        </tr>
-                        <tr>
-                            <td>Purple</td>
-                            <td>Фіолетовий</td>
-                        </tr>
-                        <tr>
-                            <td>Brown</td>
-                            <td>Коричневий</td>
-                        </tr>
-                        <tr>
-                            <td>Pink</td>
-                            <td>Рожевий</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <%~ include("../components/footer.eta") %>
-        <script><%~ include("./script.js")%></script>
-    </body>
-</html>
+<table>
+    <thead>
+        <tr>
+            <th>English</th>
+            <th>Українська</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Black</td>
+            <td>Чорний</td>
+        </tr>
+        <tr>
+            <td>White</td>
+            <td>Білий</td>
+        </tr>
+        <tr>
+            <td>Dark blue</td>
+            <td>Сіній</td>
+        </tr>
+        <tr>
+            <td>Light blue</td>
+            <td>Голубий</td>
+        </tr>
+        <tr>
+            <td>Red</td>
+            <td>Червоний</td>
+        </tr>
+        <tr>
+            <td>Gray</td>
+            <td>Сірий</td>
+        </tr>
+        <tr>
+            <td>Yellow</td>
+            <td>Жовтий</td>
+        </tr>
+        <tr>
+            <td>Green</td>
+            <td>Зелений</td>
+        </tr>
+        <tr>
+            <td>Orange</td>
+            <td>Оранжевий</td>
+        </tr>
+        <tr>
+            <td>Purple</td>
+            <td>Фіолетовий</td>
+        </tr>
+        <tr>
+            <td>Brown</td>
+            <td>Коричневий</td>
+        </tr>
+        <tr>
+            <td>Pink</td>
+            <td>Рожевий</td>
+        </tr>
+    </tbody>
+</table>

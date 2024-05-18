@@ -1,140 +1,111 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <%~ include ("../components/head.eta", {title: "Verbs / Дієслова"}) %>
-    <%~ include("../components/table.css") %>
-    <style>
-        #contents{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-    </style>
-</head>
-<body>
-    <%~ include("../components/header.eta", {title: "Verbs / Дієслова"}) %>
-    <button id="menuBtn">Menu</button>
-
-    <div id="main">
-        <%~ include("../components/menu.eta") %>
-
-        <div id="contents">
-            <%~ include("./subHeader.eta") %>
-            <table>
-                <thead>
-                    <tr>
-                        <th>English</th>
-                        <th>Українська</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>To hope</td>
-                        <td>Сподіватися</td>
-                    </tr>
-                    <tr>
-                        <td>To join</td>
-                        <td>Приєднуватися - Приєднатися</td>
-                        <%~ include("../components/linkIcon.eta", {word: "приєднуватися"}) %>
-                    </tr>
-                    <tr>
-                        <td>To create</td>
-                        <td>Створити</td>
-                    </tr>
-                    <tr>
-                        <td>To work</td>
-                        <td>Працювати - Попрацювати</td>
-                        <%~ include("../components/linkIcon.eta", {word: "працювати"}) %>
-                    </tr>
-                    <tr>
-                        <td>To put/place</td>
-                        <td>Ставити - Поставити</td>
-                        <%~ include("../components/linkIcon.eta", {word: "ставити"}) %>
-                    </tr>
-                    <tr>
-                        <td>To rest</td>
-                        <td>Відпочивати - Відпочити</td>
-                        <%~ include("../components/linkIcon.eta", {word: "відпочивати"}) %>
-                    </tr>
-                    <tr>
-                        <td>To oversleep</td>
-                        <td>Проспати</td>
-                    </tr>
-                    <tr>
-                        <td>To wake up</td>
-                        <td>Прокидатися - Прокинутися</td>
-                        <%~ include("../components/linkIcon.eta", {word: "прокидатися"}) %>
-                    </tr>
-                    <tr>
-                        <td>To reach/achieve</td>
-                        <td>Досягати - Досягнути</td>
-                        <%~ include("../components/linkIcon.eta", {word: "досягати"}) %>
-                    </tr>
-                    <tr>
-                        <td>To prepare/cook</td>
-                        <td>Готувати(ся) - Приготувати(ся)</td>
-                        <%~ include("../components/linkIcon.eta", {word: "готувати"}) %>
-                    </tr>
-                    <tr>
-                        <td>To prove</td>
-                        <td>Доводити - Довести</td>
-                    </tr>
-                    <tr>
-                        <td>To lose</td>
-                        <td>Втрачати - Втратити</td>
-                    </tr>
-                    <tr>
-                        <td>To disappear</td>
-                        <td>Зникати - Зникнути</td>
-                    </tr>
-                    <tr>
-                        <td>To hurt</td>
-                        <td>Кривдити</td>
-                    </tr>
-                    <tr>
-                        <td>To crash</td>
-                        <td>Врізатися</td>
-                    </tr>
-                    <tr>
-                        <td>To survive</td>
-                        <td>Вижити</td>
-                    </tr>
-                    <tr>
-                        <td>To accept</td>
-                        <td>Приймати</td>
-                    </tr>
-                    <tr>
-                        <td>To afford</td>
-                        <td>Дозволити</td>
-                    </tr>
-                    <tr>
-                        <td>To stop</td>
-                        <td>Зупиняти(ся) - Зупинити(ся)</td>
-                        <%~ include("../components/linkIcon.eta", {word: "зупинятися"}) %>
-                    </tr>
-                    <tr>
-                        <td>To become tired</td>
-                        <td>Втомитися</td>
-                    </tr>
-                    <tr>
-                        <td>To look like</td>
-                        <td>Виглядати</td>
-                    </tr>
-                    <tr>
-                        <td>To scream</td>
-                        <td>Кричати - Покричати</td>
-                        <%~ include("../components/linkIcon.eta", {word: "кричати"}) %>
-                    </tr>
-                    <tr>
-                        <td>To fight</td>
-                        <td>Сваритися</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-
-    <%~ include("../components/footer.eta") %>
-    <script><%~ include("./script.js")%></script>
-</body>
-</html>
+<table>
+    <thead>
+        <tr>
+            <th>English</th>
+            <th>Українська</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>To hope</td>
+            <td>Сподіватися</td>
+        </tr>
+        <tr>
+            <td>To join</td>
+            <td>Приєднуватися - Приєднатися</td>
+            <%~ include("../components/linkIcon.eta", {word: "приєднуватися"}) %>
+        </tr>
+        <tr>
+            <td>To create</td>
+            <td>Створити</td>
+        </tr>
+        <tr>
+            <td>To work</td>
+            <td>Працювати - Попрацювати</td>
+            <%~ include("../components/linkIcon.eta", {word: "працювати"}) %>
+        </tr>
+        <tr>
+            <td>To put/place</td>
+            <td>Ставити - Поставити</td>
+            <%~ include("../components/linkIcon.eta", {word: "ставити"}) %>
+        </tr>
+        <tr>
+            <td>To rest</td>
+            <td>Відпочивати - Відпочити</td>
+            <%~ include("../components/linkIcon.eta", {word: "відпочивати"}) %>
+        </tr>
+        <tr>
+            <td>To oversleep</td>
+            <td>Проспати</td>
+        </tr>
+        <tr>
+            <td>To wake up</td>
+            <td>Прокидатися - Прокинутися</td>
+            <%~ include("../components/linkIcon.eta", {word: "прокидатися"}) %>
+        </tr>
+        <tr>
+            <td>To reach/achieve</td>
+            <td>Досягати - Досягнути</td>
+            <%~ include("../components/linkIcon.eta", {word: "досягати"}) %>
+        </tr>
+        <tr>
+            <td>To prepare/cook</td>
+            <td>Готувати(ся) - Приготувати(ся)</td>
+            <%~ include("../components/linkIcon.eta", {word: "готувати"}) %>
+        </tr>
+        <tr>
+            <td>To prove</td>
+            <td>Доводити - Довести</td>
+        </tr>
+        <tr>
+            <td>To lose</td>
+            <td>Втрачати - Втратити</td>
+        </tr>
+        <tr>
+            <td>To disappear</td>
+            <td>Зникати - Зникнути</td>
+        </tr>
+        <tr>
+            <td>To hurt</td>
+            <td>Кривдити</td>
+        </tr>
+        <tr>
+            <td>To crash</td>
+            <td>Врізатися</td>
+        </tr>
+        <tr>
+            <td>To survive</td>
+            <td>Вижити</td>
+        </tr>
+        <tr>
+            <td>To accept</td>
+            <td>Приймати</td>
+        </tr>
+        <tr>
+            <td>To afford</td>
+            <td>Дозволити</td>
+        </tr>
+        <tr>
+            <td>To stop</td>
+            <td>Зупиняти(ся) - Зупинити(ся)</td>
+            <%~ include("../components/linkIcon.eta", {word: "зупинятися"}) %>
+        </tr>
+        <tr>
+            <td>To become tired</td>
+            <td>Втомитися</td>
+        </tr>
+        <tr>
+            <td>To look like</td>
+            <td>Виглядати</td>
+        </tr>
+        <tr>
+            <td>To scream</td>
+            <td>Кричати - Покричати</td>
+            <%~ include("../components/linkIcon.eta", {word: "кричати"}) %>
+        </tr>
+        <tr>
+            <td>To fight</td>
+            <td>Сваритися</td>
+        </tr>
+    </tbody>
+</table>
